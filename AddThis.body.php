@@ -21,7 +21,12 @@ class AddThis {
 			<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:'.$wgAddThisBackground.'; border-color:'.$wgAddThisBorder.';">
 				<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4eb75def4ec6488b" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>';
 		foreach ( $wgAddThisHServ as $n => $a ) {
-			$output .= '<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'" '.$wgAddThisHServ[$n]["attribs"].'></a>';
+			if (true === isset($wgAddThisHServ[$n]["attribs"])) { 
+				$output .= '<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'" '.$wgAddThisHServ[$n]["attribs"].'></a>';
+				}
+			else {
+			$output .= '<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'"></a>';
+				}
 		}
 		$output .='</div>
 			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>
@@ -44,8 +49,13 @@ class AddThis {
 			$bar['addthis'] = '<!-- AddThis Button BEGIN -->
 				<div class="addthis_toolbox addthis_default_style" id="addthissidebar">';
 			foreach ( $wgAddThisSBServ as $n => $a ) {
-				$bar['addthis'] .= '<a class="addthis_button_'.$wgAddThisSBServ[$n]["service"].'" '.$wgAddThisSBServ[$n]["attribs"].'></a>';
-			}
+				if (true === isset($wgAddThisSBServ[$n]["attribs"])) { 
+					$bar['addthis'] .= '<a class="addthis_button_'.$wgAddThisSBServ[$n]["service"].'" '.$wgAddThisSBServ[$n]["attribs"].'></a>';
+					}
+				else {
+				$bar['addthis'] .= '<a class="addthis_button_'.$wgAddThisSBServ[$n]["service"].'"></a>';
+					}
+				}
 			$bar['addthis'] .= '</div>
 				<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>
 				<!-- AddThis Button END -->';
@@ -81,7 +91,12 @@ class AddThis {
 					<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:'.$wgAddThisBackground.'; border-color:'.$wgAddThisBorder.';">
 						<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4eb75def4ec6488b" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>');
 				foreach ( $wgAddThisHServ as $n => $a ) {
-					$wgOut->addHTML('<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'" '.$wgAddThisHServ[$n]["attribs"].'></a>');
+					if (true === isset($wgAddThisHServ[$n]["attribs"])) { 
+						$wgOut->addHTML('<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'" '.$wgAddThisHServ[$n]["attribs"].'></a>');
+						}
+					else {
+					$wgOut->addHTML('<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'"></a>');
+						}
 				}
 				$wgOut->addHTML('</div>
 					<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>
