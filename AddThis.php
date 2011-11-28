@@ -117,9 +117,9 @@ $wgAddThispubid		 = '';
 # Default values for most options
 $wgAddThisBackground = '#f6f6f6';
 $wgAddThisBorder	 = '#a7d7f9';
-$wgAddThisSidebar	 = 'true';
-$wgAddThisHeader	 = 'true';
-$wgAddThisMain		 = 'true';
+$wgAddThisSidebar	 = true;
+$wgAddThisHeader	 = true;
+$wgAddThisMain		 = true;
 
 # Sidebar settings
 $wgAddThisSBServ = array(
@@ -184,7 +184,6 @@ $wgExtensionCredits['other'][] = array(
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:AddThis',
 );
 
-
 /**
  * Register class and localisations
  *
@@ -193,29 +192,27 @@ $dir = dirname(__FILE__) . '/';
 $wgAutoloadClasses['AddThis'] = $dir . 'AddThis.body.php';
 $wgExtensionMessagesFiles['AddThis'] = $dir . 'AddThis.i18n.php';
 
-
 $wgResourceModules['ext.addThis'] = array(
 	'styles' => 'addThis.css',
 	'localBasePath' => dirname( __FILE__ ),
 	'remoteExtPath' => 'AddThis',
 );
 
-
 /**
  * Hooks
  *
  */
 $wgHooks['ArticleViewHeader'][] = 'AddThis::AddThisHeader';
-$wgHooks['ParserFirstCallInit'][] = 'addThisHeaderTag';
+$wgHooks['ParserFirstCallInit'][] = 'efAddThisHeaderTag';
 $wgHooks['SkinBuildSidebar'][] = 'AddThis::AddThisSidebar';
-
 
 /**
  * Register parser hook
  *
  * @param $parser Parser
+ * @return bool
  */
-function addThisHeaderTag( &$parser ) {
+function efAddThisHeaderTag( &$parser ) {
 	$parser->setHook( 'addthis', 'AddThis::parserHook' );
 	return true;
 }
