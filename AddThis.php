@@ -177,6 +177,7 @@ $wgAddThisHServ = array(
  *
  */
 $wgExtensionCredits['other'][] = array(
+	'path'           => __FILE__,
 	'name'           => 'AddThis',
 	'version'        => '1.0f',
 	'author'         => '[http://en.wikipedia.org/wiki/User:Varnent Gregory Varnum] (Contributions by [http://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
