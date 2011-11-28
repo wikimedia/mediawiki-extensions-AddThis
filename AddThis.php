@@ -9,6 +9,7 @@
  * @license GPL
  *
  * Loosely based on the Google Translator extension by Joachim De Schrijver
+ * Thank you to Johnduhart for feedback
  */
  
 /**
@@ -42,72 +43,72 @@ if( !defined( 'MEDIAWIKI' ) ) {
  * $wgAddThisMain
  * 			- Display AddThis widget on main page
  *			  Default is true
- * $wgAddThisSBServ1
+ * $wgAddThisSBServ[1]
  * 			- Service code for 1st button in sidebar - service codes: http://www.addthis.com/services/list
  *			  Default is compact - AddThis icon used to access full AddThis popup menu
- * $wgAddThisSBServ1set
+ * $wgAddThisSBServ['1set']
  * 			- Settings for 1st button in sidebar - more info: http://www.addthis.com/help/client-api#attribute-config
- * $wgAddThisSBServ2
+ * $wgAddThisSBServ[2]
  * 			- Service code for 2nd button in sidebar
  *			  Default is facebook
- * $wgAddThisSBServ2set
+ * $wgAddThisSBServ['2set']
  * 			- Settings for 2nd button in sidebar
- * $wgAddThisSBServ3
+ * $wgAddThisSBServ[3]
  * 			- Service code for 3rd button in sidebar
  *			  Default is twitter
- * $wgAddThisSBServ3set
+ * $wgAddThisSBServ['3set']
  * 			- Settings for 3rd button in sidebar
- * $wgAddThisSBServ4
+ * $wgAddThisSBServ[4]
  * 			- Service code for 4th button in sidebar
  *			  Default is google_plusone
- * $wgAddThisSBServ4set
+ * $wgAddThisSBServ['4set']
  * 			- Settings for 4th button in sidebar
  *			  Default is g:plusone:count="false" style="margin-top:1px;"
- * $wgAddThisSBServ5
+ * $wgAddThisSBServ[5]
  * 			- Service code for 5th button in sidebar
  *			  Default is email
- * $wgAddThisSBServ5set
+ * $wgAddThisSBServ['5set']
  * 			- Settings for 5th button in sidebar
- * $wgAddThisHServ1
+ * $wgAddThisHServ[1]
  * 			- Service code for 1st button in article header after AddThis icon (which cannot be moved in the header)
  *			  Default is facebook
- * $wgAddThisHServ1set
+ * $wgAddThisHServ['1set']
  * 			- Settings for 1st button in article header
- * $wgAddThisHServ2
+ * $wgAddThisHServ[2]
  * 			- Service code for 2nd button in article header
  *			  Default is twitter
- * $wgAddThisHServ2set
+ * $wgAddThisHServ['2set']
  * 			- Settings for 2nd button in article header
- * $wgAddThisHServ3
+ * $wgAddThisHServ[3]
  * 			- Service code for 3rd button in article header
  *			  Default is google_plusone
- * $wgAddThisHServ3set
+ * $wgAddThisHServ['3set']
  * 			- Settings for 3rd button in article header
  *			  Default is g:plusone:count="false" style="margin-top:1px;"
- * $wgAddThisHServ4
+ * $wgAddThisHServ[4]
  * 			- Service code for 4th button in article header
  *			  Default is linkedin
- * $wgAddThisHServ4set
+ * $wgAddThisHServ['4set']
  * 			- Settings for 4th button in article header
- * $wgAddThisHServ5
+ * $wgAddThisHServ[5]
  * 			- Service code for 5th button in article header
  *			  Default is tumblr
- * $wgAddThisHServ5set
+ * $wgAddThisHServ['5set']
  * 			- Settings for 5th button in article header
- * $wgAddThisHServ6
+ * $wgAddThisHServ[6]
  * 			- Service code for 6th button in article header
  *			  Default is stumbleupon
- * $wgAddThisHServ6set
+ * $wgAddThisHServ['6set']
  * 			- Settings for 6th button in article header
- * $wgAddThisHServ7
+ * $wgAddThisHServ[7]
  * 			- Service code for 7th button in article header
  *			  Default is reddit
- * $wgAddThisHServ7set
+ * $wgAddThisHServ['7set']
  * 			- Settings for 7th button in article header
- * $wgAddThisHServ8
+ * $wgAddThisHServ[8]
  * 			- Service code for 8th button in article header
  *			  Default is email
- * $wgAddThisHServ8set
+ * $wgAddThisHServ['8set']
  * 			- Settings for 8th button in article header
  */
 
@@ -121,34 +122,38 @@ $wgAddThisHeader	 = 'true';
 $wgAddThisMain		 = 'true';
 
 # Sidebar settings
-$wgAddThisSBServ1	 = 'compact';
-$wgAddThisSBServ1set = '';
-$wgAddThisSBServ2	 = 'facebook';
-$wgAddThisSBServ2set = '';
-$wgAddThisSBServ3	 = 'twitter';
-$wgAddThisSBServ3set = '';
-$wgAddThisSBServ4	 = 'google_plusone';
-$wgAddThisSBServ4set = 'g:plusone:count="false" style="margin-top:1px;"';
-$wgAddThisSBServ5	 = 'email';
-$wgAddThisSBServ5set = '';
+$wgAddThisSBServ = array(
+	1 => 'compact',
+	'1set' => '',
+	2 => 'facebook',
+	'2set' => '',
+	3 => 'twitter',
+	'3set' => '',
+	4 => 'google_plusone',
+	'4set' => 'g:plusone:count="false" style="margin-top:1px;"',
+	5 => 'email',
+	'5set' => '', 
+);
 
 # Toolbar settings
-$wgAddThisHServ1	 = 'facebook';
-$wgAddThisHServ1set  = '';
-$wgAddThisHServ2	 = 'twitter';
-$wgAddThisHServ2set  = '';
-$wgAddThisHServ3	 = 'google_plusone';
-$wgAddThisHServ3set  = 'g:plusone:count="false" style="margin-top:1px;"';
-$wgAddThisHServ4	 = 'linkedin';
-$wgAddThisHServ4set  = '';
-$wgAddThisHServ5	 = 'tumblr';
-$wgAddThisHServ5set  = '';
-$wgAddThisHServ6	 = 'stumbleupon';
-$wgAddThisHServ6set  = '';
-$wgAddThisHServ7	 = 'reddit';
-$wgAddThisHServ7set  = '';
-$wgAddThisHServ8	 = 'email';
-$wgAddThisHServ8set  = '';
+$wgAddThisHServ = array(
+	1 => 'facebook',
+	'1set' => '',
+	2 => 'twitter',
+	'2set' => '',
+	3 => 'google_plusone',
+	'3set' => 'g:plusone:count="false" style="margin-top:1px;"',
+	4 => 'linkedin',
+	'4set' => '',
+	5 => 'tumblr',
+	'5set' => '', 
+	6 => 'stumbleupon',
+	'6set' => '', 
+	7 => 'reddit',
+	'7set' => '', 
+	8 => 'email',
+	'8set' => '', 
+);
 
 
 /**
