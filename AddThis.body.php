@@ -24,13 +24,7 @@ class AddThis {
 			<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:'.$wgAddThisBackground.'; border-color:'.$wgAddThisBorder.';">
 				<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4eb75def4ec6488b" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>';
 
-		foreach ( $wgAddThisHServ as $n => $a ) {
-			if ( isset( $wgAddThisHServ[$n]["attribs"] ) ) {
-				$output .= '<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'" '.$wgAddThisHServ[$n]["attribs"].'></a>';
-			} else {
-				$output .= '<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'"></a>';
-			}
-		}
+		$output = self::makeLinks( $wgAddThisHServ );
 		$output .='</div>
 			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>
 			<!-- AddThis Button END -->';
@@ -56,13 +50,7 @@ class AddThis {
 			$bar['addthis'] = '<!-- AddThis Button BEGIN -->
 				<div class="addthis_toolbox addthis_default_style" id="addthissidebar">';
 
-			foreach ( $wgAddThisSBServ as $n => $a ) {
-				if ( isset( $wgAddThisSBServ[$n]["attribs"] ) ) {
-					$bar['addthis'] .= '<a class="addthis_button_'.$wgAddThisSBServ[$n]["service"].'" '.$wgAddThisSBServ[$n]["attribs"].'></a>';
-				} else {
-					$bar['addthis'] .= '<a class="addthis_button_'.$wgAddThisSBServ[$n]["service"].'"></a>';
-				}
-			}
+			$bar['addthis'] .= self::makeLinks( $wgAddThisSBServ );
 
 			$bar['addthis'] .= '</div>
 				<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>
@@ -77,7 +65,7 @@ class AddThis {
 	/**
 	 * Function for article header toolbar
 	 *
-	 * @param $article
+	 * @param $article Article
 	 * @param $outputDone
 	 * @param $pcache
 	 * @return bool
@@ -93,7 +81,7 @@ class AddThis {
 		# Check setting to enable/disable article header tooblar
 		if ( $wgAddThisHeader ) {
 			# Check if article is mainpage set by [[MediaWiki:Mainpage]]
-			if ( $wgRequest->getText( 'title' )==str_replace( ' ', '_', wfMsg( 'mainpage' ) ) ) {
+			if ( $wgRequest->getText( 'title' ) == str_replace( ' ', '_', wfMsg( 'mainpage' ) ) ) {
                 # Check setting to enable/disable article header toolbar on mainpage
 				if( !$wgAddThisMain ) {
 					return true;
@@ -107,13 +95,7 @@ class AddThis {
 					<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:'.$wgAddThisBackground.'; border-color:'.$wgAddThisBorder.';">
 						<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4eb75def4ec6488b" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>');
 
-				foreach ( $wgAddThisHServ as $n => $a ) {
-					if (true === isset($wgAddThisHServ[$n]["attribs"])) { 
-						$wgOut->addHTML('<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'" '.$wgAddThisHServ[$n]["attribs"].'></a>');
-					} else {
-						$wgOut->addHTML('<a class="addthis_button_'.$wgAddThisHServ[$n]["service"].'"></a>');
-					}
-				}
+				$wgOut->addHTML( self::makeLinks( $wgAddThisHServ ) );
 
 				$wgOut->addHTML('</div>
 					<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>
@@ -122,5 +104,22 @@ class AddThis {
 		}
 
 		return true;
+	}
+
+	/**
+	 * Converts an array definition of links into HTML tags
+	 *
+	 * @param $links array
+	 * @return string
+	 */
+	protected static function makeLinks( $links ) {
+		$html = '';
+		foreach ( $links as $link ) {
+			$attribs = isset( $link['attribs'] ) ? $link['attribs'] : '';
+
+			$html .= '<a class="addthis_button_' . $link['service'] . '" ' . $attribs . '></a>';
+		}
+
+		return $html;
 	}
 }
