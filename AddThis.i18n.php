@@ -13,7 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'addthis'      => 'Share',
-	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] to the sidebar and creates toolbar displayed on article header or by using <nowiki><addthis /></nowiki> tag.',
+	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] to the sidebar and creates toolbar displayed on page header or by using <nowiki><addthis /></nowiki> tag',
 );
 
 /** Russian (Русский)
@@ -21,5 +21,5 @@ $messages['en'] = array(
  */
 $messages['ru'] = array (
 	'addthis'      => 'Поделиться',
-	'addthis-desc' => 'Добавляет [http://www.addthis.com кнопку AddThis] на боковую панель и в заголовок статьи.'
+	'addthis-desc' => 'Добавляет [http://www.addthis.com кнопку AddThis] на боковую панель и в заголовок статьи'
 );
