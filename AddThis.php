@@ -5,11 +5,12 @@
  * http://www.mediawiki.org/wiki/Extension:AddThis
  *
  * @addtogroup Extensions
- * @author Gregory Varnum
+ * @author Gregory Varnum, significant contributions by Johnduhart
  * @license GPL
  *
  * Loosely based on the Google Translator extension by Joachim De Schrijver
- * Thank you to Johnduhart for feedback
+ * Thank you to Unikum111 for Russian translation, bug reporting and feedback
+ * Thank you to Johnduhart for feedback and cleaning up code
  */
  
 /**
@@ -178,7 +179,7 @@ $wgAddThisHServ = array(
 $wgExtensionCredits['other'][] = array(
 	'name'           => 'AddThis',
 	'version'        => '1.0f',
-	'author'         => '[http://en.wikipedia.org/wiki/User:Varnent Gregory Varnum]',
+	'author'         => '[http://en.wikipedia.org/wiki/User:Varnent Gregory Varnum] (Contributions by [http://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
 	'description'    => 'Adds [http://www.addthis.com AddThis button] to the sidebar and page header',
 	'descriptionmsg' => 'addthis-desc',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:AddThis',
