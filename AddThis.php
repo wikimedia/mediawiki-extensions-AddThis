@@ -11,6 +11,8 @@
  * Loosely based on the Google Translator extension by Joachim De Schrijver
  * Thank you to Unikum111 for Russian translation, bug reporting and feedback
  * Thank you to Johnduhart for feedback and cleaning up code
+ * Thank you to Raymond, Kghbln, Michawiki, Toliño, McDutchie, Bjankuloski06, SPQRobin, Gucci Mane Burrr,
+ *    and others mentioned in AddThis.i18n.php for translation work
  */
  
 /**

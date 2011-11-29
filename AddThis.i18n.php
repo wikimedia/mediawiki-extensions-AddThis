@@ -13,7 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'addthis'      => 'Share',
-	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] to the sidebar and creates toolbar displayed on page header or by using <nowiki><addthis /></nowiki> tag',
+	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] to the sidebar and displays a toolbar on page headers which can be reproduced anywhere by inserting the <nowiki><addthis /></nowiki> tag',
 );
 
 /** German (Deutsch)
