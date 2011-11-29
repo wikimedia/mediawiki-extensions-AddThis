@@ -37,7 +37,15 @@ $messages['dsb'] = array(
  */
 $messages['gl'] = array(
 	'addthis' => 'Compartir',
-	'addthis-desc' => 'Engade o [http://www.addthis.com widget AddThis] á barra lateral e crea unha barra de ferramentas mostrada na cabeceira das páxinas ou mediante a etiqueta <nowiki><addthis /></nowiki>',
+	'addthis-desc' => 'Engade o [http://www.addthis.com widget AddThis] á barra lateral e mostra unha barra de ferramentas nas cabeceiras das páxinas que se pode reproducir en calquera sitio inserindo a etiqueta <nowiki><addthis /></nowiki>',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'addthis' => 'Dźělić',
+	'addthis-desc' => 'Přidawa [http://www.addthis.com rozšěrjenje AddThis] bóčnicy a wutwori gratowu lajstu zwobraznjenu we hłowje strony abo z pomocu elementa <nowiki><addthis /></nowiki>',
 );
 
 /** Interlingua (Interlingua)
@@ -61,7 +69,7 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'addthis' => 'Delen',
-	'addthis-desc' => 'Voegt een [http://www.addthis.com AddThis-widget] toe aan de sidebar en maakt een werkbalk aan die wordt weergegeven op de paginakop of waar de tag <nowiki><addthis /></nowiki> wordt gebruikt',
+	'addthis-desc' => 'Voegt een [http://www.addthis.com AddThis-widget] toe aan de menubalk en maakt een werkbalk aan die wordt weergegeven op de paginakop of waar het label <nowiki><addthis /></nowiki> wordt gebruikt',
 );
 
 /** Russian (Русский)
@@ -70,6 +78,13 @@ $messages['nl'] = array(
 $messages['ru'] = array(
 	'addthis' => 'Поделиться',
 	'addthis-desc' => 'Добавляет [http://www.addthis.com кнопку AddThis] на боковую панель и в заголовок статьи',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'addthis' => 'పంచుకోండి',
 );
 
 /** Ukrainian (Українська)
