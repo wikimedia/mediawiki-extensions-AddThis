@@ -21,7 +21,7 @@ $messages['en'] = array(
  */
 $messages['de'] = array(
 	'addthis' => 'Teilen',
-	'addthis-desc' => 'Ergänzt ein [http://www.addthis.com AddThis-Widget] in der Seitenleiste und ermöglicht das Einfügen einer Funktionsleiste mit dem <nowiki><addthis /></nowiki>-Tag',
+	'addthis-desc' => 'Ergänzt ein [http://www.addthis.com AddThis-Widget] in der Seitenleiste sowie eine Funktionsleiste im Kopfbereich einer Wikiseite, die mit dem <nowiki><addthis /></nowiki>-Tag auch an anderen Stellen eingefügt werden kann',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -45,7 +45,7 @@ $messages['gl'] = array(
  */
 $messages['hsb'] = array(
 	'addthis' => 'Dźělić',
-	'addthis-desc' => 'Přidawa [http://www.addthis.com rozšěrjenje AddThis] bóčnicy a wutwori gratowu lajstu zwobraznjenu we hłowje strony abo z pomocu elementa <nowiki><addthis /></nowiki>',
+	'addthis-desc' => 'Přidawa [http://www.addthis.com rozšěrjenje AddThis] bóčnicy a wutwori gratowu lajstu zwobraznjenu we hłowje strony, kotraž da so z pomocu elementa <nowiki><addthis /></nowiki> něhdźe zasunyć',
 );
 
 /** Interlingua (Interlingua)
@@ -61,15 +61,16 @@ $messages['ia'] = array(
  */
 $messages['mk'] = array(
 	'addthis' => 'Сподели',
-	'addthis-desc' => 'Го додава посредничкиот елемент [http://www.addthis.com AddThis] во страничната лента и создава алатник во заглавието на страницата или користејќи ознака <nowiki><addthis /></nowiki>',
+	'addthis-desc' => 'Го додава посредничкиот елемент [http://www.addthis.com AddThis] во страничната лента и истакнува алатник во заглавијата на страниците што може да се истакне и на било кое друго место со вметнување на ознаката <nowiki><addthis /></nowiki>',
 );
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'addthis' => 'Delen',
-	'addthis-desc' => 'Voegt een [http://www.addthis.com AddThis-widget] toe aan de menubalk en maakt een werkbalk aan die wordt weergegeven op de paginakop of waar het label <nowiki><addthis /></nowiki> wordt gebruikt',
+	'addthis-desc' => "Voegt een [http://www.addthis.com AddThis-widget] toe aan de menubalk en geeft een werkbalk weer bovenaan pagina's of waar het label <nowiki><addthis /></nowiki> wordt gebruikt",
 );
 
 /** Russian (Русский)
