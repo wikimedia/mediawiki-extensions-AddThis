@@ -53,7 +53,7 @@ $messages['hsb'] = array(
  */
 $messages['ia'] = array(
 	'addthis' => 'Divider',
-	'addthis-desc' => 'Adde un [http://www.addthis.com widget "Adder isto"] al barra lateral e insere un barra de utensiles in alto del paginas o per usar le etiquetta <nowiki><addthis /></nowiki>',
+	'addthis-desc' => 'Adde un [http://www.addthis.com widget "Adder isto"] al barra lateral e insere un barra de utensiles in alto del paginas que pote esser reproducite ubicunque con le etiquetta <nowiki><addthis /></nowiki>',
 );
 
 /** Macedonian (Македонски)
