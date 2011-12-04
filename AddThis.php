@@ -11,7 +11,7 @@
  * Loosely based on the Google Translator extension by Joachim De Schrijver
  * Thank you to Unikum111 for Russian translation, bug reporting and feedback
  * Thank you to Johnduhart for feedback and cleaning up code
- * Thank you to Raymond, Kghbln, Michawiki, Toliño, McDutchie, Bjankuloski06, SPQRobin, Gucci Mane Burrr,
+ * Thank you to Raymond, Kghbln, Michawiki, Toliño, McDutchie, Bjankuloski06, SPQRobin, Veeven, Gucci Mane Burrr,
  *    and others mentioned in AddThis.i18n.php for translation work
  */
  
@@ -181,7 +181,7 @@ $wgAddThisHServ = array(
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'AddThis',
-	'version'        => '1.0f',
+	'version'        => '1.0',
 	'author'         => '[http://en.wikipedia.org/wiki/User:Varnent Gregory Varnum] (Contributions by [http://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
 	'description'    => 'Adds [http://www.addthis.com AddThis button] to the sidebar and page header',
 	'descriptionmsg' => 'addthis-desc',
