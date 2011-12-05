@@ -32,6 +32,13 @@ $messages['dsb'] = array(
 	'addthis-desc' => 'Pśidawa [http://www.addthis.com rozšyrjenje AddThis] bocnicy a napórajo rědowu kšomu, kótaraž pokazujo se w głowje boka, abo z pomocu elementa <nowiki><addthis /></nowiki>',
 );
 
+/** French (Français)
+ * @author Crochet.david
+ */
+$messages['fr'] = array(
+	'addthis' => 'Partager',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
@@ -54,6 +61,13 @@ $messages['hsb'] = array(
 $messages['ia'] = array(
 	'addthis' => 'Divider',
 	'addthis-desc' => 'Adde un [http://www.addthis.com widget "Adder isto"] al barra lateral e insere un barra de utensiles in alto del paginas que pote esser reproducite ubicunque con le etiquetta <nowiki><addthis /></nowiki>',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'addthis' => 'Deelen',
 );
 
 /** Macedonian (Македонски)
