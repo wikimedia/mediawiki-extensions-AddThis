@@ -16,6 +16,14 @@ $messages['en'] = array(
 	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] to the sidebar and displays a toolbar on page headers which can be reproduced anywhere by inserting the <nowiki><addthis /></nowiki> tag',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'addthis' => 'Compartir',
+	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -78,6 +86,14 @@ $messages['mk'] = array(
 	'addthis-desc' => 'Го додава посредничкиот елемент [http://www.addthis.com AddThis] во страничната лента и истакнува алатник во заглавијата на страниците што може да се истакне и на било кое друго место со вметнување на ознаката <nowiki><addthis /></nowiki>',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'addthis' => 'Kongsi',
+	'addthis-desc' => 'Menambahkan [http://www.addthis.com widget AddThis] kepada palang sisi serta memaparkan palang alatan pada pengatas laman yang boleh dipaparkan semula di mana-mana dengan menyisipkan tag <nowiki><addthis /></nowiki>',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -108,5 +124,12 @@ $messages['te'] = array(
 $messages['uk'] = array(
 	'addthis' => 'Поділитися',
 	'addthis-desc' => 'Додає [http://www.addthis.com кнопку AddThis] на бічну панель і створює панель інструментів, що відображається у заголовку сторінки або за допомогою тегу <nowiki><addthis /></nowiki>',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Shizhao
+ */
+$messages['zh-hans'] = array(
+	'addthis' => '分享',
 );
 
