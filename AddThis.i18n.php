@@ -42,9 +42,11 @@ $messages['dsb'] = array(
 
 /** French (Français)
  * @author Crochet.david
+ * @author Gomoko
  */
 $messages['fr'] = array(
 	'addthis' => 'Partager',
+	'addthis-desc' => "Ajouter le [http://www.addthis.com widget AddThis] à la barre latérale et affiche une barre d'outil dans les entêtes de la page qui peuvent être reproduits n'importe où en insérant la balise <nowiki><addthis /></nowiki>",
 );
 
 /** Galician (Galego)
