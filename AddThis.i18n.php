@@ -24,6 +24,13 @@ $messages['ast'] = array(
 	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'addthis' => 'Rannañ gant tud all',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
