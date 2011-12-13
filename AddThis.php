@@ -185,7 +185,7 @@ $wgExtensionCredits['other'][] = array(
 	'author'         => '[http://en.wikipedia.org/wiki/User:Varnent Gregory Varnum] (Contributions by [http://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
 	'description'    => 'Adds [http://www.addthis.com AddThis button] to the sidebar and page header',
 	'descriptionmsg' => 'addthis-desc',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:AddThis',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:AddThis',
 );
 
 /**
