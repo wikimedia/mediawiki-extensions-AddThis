@@ -95,6 +95,13 @@ $messages['mk'] = array(
 	'addthis-desc' => 'Го додава посредничкиот елемент [http://www.addthis.com AddThis] во страничната лента и истакнува алатник во заглавијата на страниците што може да се истакне и на било кое друго место со вметнување на ознаката <nowiki><addthis /></nowiki>',
 );
 
+/** Marathi (मराठी)
+ * @author Kaajawa
+ */
+$messages['mr'] = array(
+	'addthis' => 'वाटा',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
