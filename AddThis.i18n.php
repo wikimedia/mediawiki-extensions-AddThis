@@ -16,6 +16,20 @@ $messages['en'] = array(
 	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] to the sidebar and displays a toolbar on page headers which can be reproduced anywhere by inserting the <nowiki><addthis /></nowiki> tag',
 );
 
+/** Message documentation (Message documentation)
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'addthis-desc' => '{{desc}}',
+);
+
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'addthis' => 'Deel',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -78,6 +92,14 @@ $messages['hsb'] = array(
 $messages['ia'] = array(
 	'addthis' => 'Divider',
 	'addthis-desc' => 'Adde un [http://www.addthis.com widget "Adder isto"] al barra lateral e insere un barra de utensiles in alto del paginas que pote esser reproducite ubicunque con le etiquetta <nowiki><addthis /></nowiki>',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'addthis' => 'Dat-Dobeidonn',
+	'addthis-desc' => 'Deiht ene [http://www.addthis.com <i lang="en>AddThis</i> Befähl] för se sidebar en et Wiki un zeisch en Wärkzüschleß em Kopp vun Sigge, di övverall med enem <nowiki><addthis /></nowiki>-Befähl noch ens hen jemaat wääde kann.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
