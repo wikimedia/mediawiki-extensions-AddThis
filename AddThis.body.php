@@ -52,7 +52,7 @@ class AddThis {
 		if ( $wgAddThisHeader ) {
 			# Check if article is mainpage set by [[MediaWiki:Mainpage]]
 			if ( $wgRequest->getText( 'title' ) == str_replace( ' ', '_', wfMsg( 'mainpage' ) ) ) {
-                # Check setting to enable/disable article header toolbar on mainpage
+				# Check setting to enable/disable article header toolbar on mainpage
 				if( !$wgAddThisMain ) {
 					return true;
 				}
