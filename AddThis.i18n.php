@@ -171,3 +171,8 @@ $messages['zh-hans'] = array(
 	'addthis' => '分享',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬) */
+$messages['zh-hant'] = array(
+	'addthis' => '分享',
+);
+
