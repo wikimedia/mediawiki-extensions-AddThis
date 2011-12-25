@@ -94,6 +94,14 @@ $messages['ia'] = array(
 	'addthis-desc' => 'Adde un [http://www.addthis.com widget "Adder isto"] al barra lateral e insere un barra de utensiles in alto del paginas que pote esser reproducite ubicunque con le etiquetta <nowiki><addthis /></nowiki>',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'addthis' => '공유하기',
+	'addthis-desc' => '[http://www.addthis.com AddThis 위젯]을 사이드바에 추가하고 문서 상단에 툴바를 표시하며 <nowiki><addthis /></nowiki> 태그를 통해 위젯을 어디에나 끼워넣을 수 있습니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
