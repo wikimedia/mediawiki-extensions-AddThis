@@ -172,6 +172,13 @@ $messages['uk'] = array(
 	'addthis-desc' => 'Додає [http://www.addthis.com кнопку AddThis] на бічну панель і створює панель інструментів, що відображається у заголовку сторінки або за допомогою тегу <nowiki><addthis /></nowiki>',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'addthis' => 'טיילן',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Shizhao
  */
