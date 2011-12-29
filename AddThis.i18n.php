@@ -17,9 +17,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
- * @author Purodha
+ * @author Purodha and Gregory Varnum
  */
 $messages['qqq'] = array(
+	'addthis'      => 'Used for sidebar header and toolbar prefix',
 	'addthis-desc' => '{{desc}}',
 );
 
