@@ -41,10 +41,12 @@ $messages['ast'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
 	'addthis' => 'Rannañ gant tud all',
+	'addthis-desc' => "Ouzhpennañ ar [http://www.addthis.com AddThis widget] d'ar varrenn-gostez ha diskouez war talbenn ar bajenn ur varrenn ostilhoù a c'hall bezañ eilet ne vern pelec'h en ur ober gant ar valizenn  <nowiki><addthis /></nowiki>",
 );
 
 /** German (Deutsch)
@@ -179,6 +181,7 @@ $messages['uk'] = array(
  */
 $messages['yi'] = array(
 	'addthis' => 'טיילן',
+	'addthis-desc' => "לייגט צו [http://www.addthis.com AddThis widget] צום זײַטפאס און ווײַזט א געצייגלייסט אויף בלאט קעפלעך וואס מ'קען קאפירן נארוואו מיטן  <nowiki><addthis /></nowiki> טאַג",
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
