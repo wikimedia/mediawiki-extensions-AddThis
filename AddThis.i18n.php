@@ -40,6 +40,14 @@ $messages['ast'] = array(
 	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'addthis' => 'Падзяліцца',
+	'addthis-desc' => 'Дадае [http://www.addthis.com гаджэт AddThis] у бакавую панэль і адлюстроўвае панэль каля загалоўку старонкі, якую таксама можа дадаць у любое месца тэгам <nowiki><addthis /></nowiki>',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Y-M D
