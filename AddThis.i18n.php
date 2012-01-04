@@ -41,11 +41,12 @@ $messages['ast'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'addthis' => 'Падзяліцца',
-	'addthis-desc' => 'Дадае [http://www.addthis.com гаджэт AddThis] у бакавую панэль і адлюстроўвае панэль каля загалоўку старонкі, якую таксама можа дадаць у любое месца тэгам <nowiki><addthis /></nowiki>',
+	'addthis-desc' => 'Дадае [http://www.addthis.com гаджэт AddThis] у бакавую панэль і паказвае панэль каля загалоўку старонкі, якую таксама можа дадаць у любое месца тэгам <nowiki><addthis /></nowiki>',
 );
 
 /** Breton (Brezhoneg)
