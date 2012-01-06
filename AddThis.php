@@ -45,6 +45,9 @@ if( !defined( 'MEDIAWIKI' ) ) {
  * $wgAddThisMain
  * 			- Display AddThis widget on main page
  *			  Default is true
+ * $wgAddThis['addressbarsharing']
+ * 			- Enable AddThis widget on main page
+ *			  Default is true
  * $wgAddThisSBServ[0]['service']
  * 			- Service code for 1st button in sidebar - service codes: http://www.addthis.com/services/list
  *			  Default is compact - AddThis icon used to access full AddThis popup menu
@@ -122,6 +125,9 @@ $wgAddThisBorder	 = '#a7d7f9';
 $wgAddThisSidebar	 = true;
 $wgAddThisHeader	 = true;
 $wgAddThisMain		 = true;
+$wgAddThis = array(
+	'addressbarsharing' => false,
+);
 
 # Sidebar settings
 $wgAddThisSBServ = array(
@@ -165,7 +171,7 @@ $wgAddThisHServ = array(
 		'service' => 'stumbleupon',
 	),
 	array(
-		'service' => 'reddit',
+		'service' => 'digg',
 	),
 	array(
 		'service' => 'email',
@@ -180,7 +186,7 @@ $wgAddThisHServ = array(
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'AddThis',
-	'version'        => '1.0',
+	'version'        => '1.0.1',
 	'author'         => '[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum] (Contributions by [https://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
 	'description'    => 'Adds [http://www.addthis.com AddThis button] to the sidebar and page header',
 	'descriptionmsg' => 'addthis-desc',
@@ -206,16 +212,5 @@ $wgResourceModules['ext.addThis'] = array(
  *
  */
 $wgHooks['ArticleViewHeader'][] = 'AddThis::AddThisHeader';
-$wgHooks['ParserFirstCallInit'][] = 'efAddThisHeaderTag';
+$wgHooks['ParserFirstCallInit'][] = 'AddThis::AddThisHeaderTag';
 $wgHooks['SkinBuildSidebar'][] = 'AddThis::AddThisSidebar';
-
-/**
- * Register parser hook
- *
- * @param $parser Parser
- * @return bool
- */
-function efAddThisHeaderTag( &$parser ) {
-	$parser->setHook( 'addthis', 'AddThis::parserHook' );
-	return true;
-}
