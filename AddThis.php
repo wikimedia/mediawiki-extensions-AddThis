@@ -46,8 +46,8 @@ if( !defined( 'MEDIAWIKI' ) ) {
  * 			- Display AddThis widget on main page
  *			  Default is true
  * $wgAddThis['addressbarsharing']
- * 			- Enable AddThis widget on main page
- *			  Default is true
+ * 			- Enable AddThis Address Bar Sharing - http://www.addthis.com/help/address-bar-sharing-analytics
+ *			  Default is false
  * $wgAddThisSBServ[0]['service']
  * 			- Service code for 1st button in sidebar - service codes: http://www.addthis.com/services/list
  *			  Default is compact - AddThis icon used to access full AddThis popup menu
