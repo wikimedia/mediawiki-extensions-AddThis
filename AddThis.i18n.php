@@ -162,6 +162,14 @@ $messages['nl'] = array(
 	'addthis-desc' => "Voegt een [http://www.addthis.com AddThis-widget] toe aan de menubalk en geeft een werkbalk weer bovenaan pagina's of waar het label <nowiki><addthis /></nowiki> wordt gebruikt",
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'addthis' => 'Condivid',
+	'addthis-desc' => "A gionta [http://www.addthis.com AddThis widget] a la bara lateral e a mosta na bara dj'utiss an sla testà ëd pagina che a peul esse riproduta minca vòta an anserend la tichëtta <nowiki><addthis /></nowiki>",
+);
+
 /** Russian (Русский)
  * @author Unikum111
  */
