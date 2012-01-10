@@ -163,19 +163,21 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'addthis' => 'Condivid',
-	'addthis-desc' => "A gionta [http://www.addthis.com AddThis widget] a la bara lateral e a mosta na bara dj'utiss an sla testà ëd pagina che a peul esse riproduta minca vòta an anserend la tichëtta <nowiki><addthis /></nowiki>",
+	'addthis' => 'Partagé',
+	'addthis-desc' => "A gionta l'acessòri [http://www.addthis.com AddThis] a la bara lateral e a smon na bara d'utiss an sj'antestassion ëd la pàgina che a peulo esse arproduvù daspërtut an anserend la tichëtta <nowiki><addthis /></nowiki>",
 );
 
 /** Russian (Русский)
  * @author Unikum111
+ * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'addthis' => 'Поделиться',
-	'addthis-desc' => 'Добавляет [http://www.addthis.com кнопку AddThis] на боковую панель и в заголовок статьи',
+	'addthis-desc' => 'Добавляет [http://www.addthis.com виджет AddThis] на боковую панель, а также показывает панель инструментов в заголовке статьи. Её также можно добавить в любое другое место с помощью тега <nowiki><addthis /></nowiki>',
 );
 
 /** Telugu (తెలుగు)
