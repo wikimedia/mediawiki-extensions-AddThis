@@ -91,6 +91,13 @@ $messages['gl'] = array(
 	'addthis-desc' => 'Engade o [http://www.addthis.com widget AddThis] á barra lateral e mostra unha barra de ferramentas nas cabeceiras das páxinas que se pode reproducir en calquera sitio inserindo a etiqueta <nowiki><addthis /></nowiki>',
 );
 
+/** Hebrew (עברית)
+ * @author Ofekalef
+ */
+$messages['he'] = array(
+	'addthis' => 'שיתוף',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
