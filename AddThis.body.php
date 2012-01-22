@@ -64,7 +64,8 @@ class AddThis {
 		# Check if page is in content namespace and the setting to enable/disable article header tooblar either on the main page or at all
 		if ( !MWNamespace::isContent( $article->getTitle()->getNamespace() )
 			|| !$wgAddThisHeader
-			|| ( $article->getTitle()->isMainPage() && !$wgAddThisMain )
+			|| ( ($article->getTitle()->getText() == wfMsg('mainpage') ) && !$wgAddThisMain )
+
 		) {
 			return true;
 		}
