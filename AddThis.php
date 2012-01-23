@@ -9,7 +9,7 @@
  * @license GPL
  *
  * Loosely based on the Google Translator extension by Joachim De Schrijver
- * Thank you to Johnduhart, Roan Kattouw, Unikum111, catrope, and folks at AddThis for feedback, bug reporting and cleaning up code
+ * Thank you to Johnduhart, Roan Kattouw, Unikum111, catrope, Nikerabbit, Reedy and folks at AddThis for feedback and cleaning up code
  * Thank you to Raymond, Kghbln, Michawiki, Toliño, McDutchie, Bjankuloski06, SPQRobin, Veeven, Gucci Mane Burrr, Kaajawa, Purodha, Kwj2772,
  *     Unikum111, Y-M D, Xuacu, Naudefj, Gomoko, Anakmalaysia, פוילישער, Shizhao, and others mentioned in AddThis.i18n.php for translation work
  */
