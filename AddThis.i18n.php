@@ -114,6 +114,13 @@ $messages['ia'] = array(
 	'addthis-desc' => 'Adde un [http://www.addthis.com widget "Adder isto"] al barra lateral e insere un barra de utensiles in alto del paginas que pote esser reproducite ubicunque con le etiquetta <nowiki><addthis /></nowiki>',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'addthis' => 'Bagikan',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
