@@ -92,10 +92,12 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Ofekalef
  */
 $messages['he'] = array(
 	'addthis' => 'שיתוף',
+	'addthis-desc' => 'הוספת [http://www.addthis.com יישומון AddThis] לסרגל הצד והצגת סרגל בכותרות הדפים שיכולים להיות משוכפלים בכל מקום באמצעות הוספת התג <nowiki><addthis /></nowiki>',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -119,6 +121,13 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'addthis' => 'Bagikan',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'addthis' => 'გაზიარება',
 );
 
 /** Korean (한국어)
