@@ -108,6 +108,13 @@ $messages['hsb'] = array(
 	'addthis-desc' => 'Přidawa [http://www.addthis.com rozšěrjenje AddThis] bóčnicy a wutwori gratowu lajstu zwobraznjenu we hłowje strony, kotraž da so z pomocu elementa <nowiki><addthis /></nowiki> něhdźe zasunyć',
 );
 
+/** Hungarian (Magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'addthis' => 'Megosztás',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
