@@ -171,7 +171,7 @@ $wgAddThisHServ = array(
 		'service' => 'stumbleupon',
 	),
 	array(
-		'service' => 'digg',
+		'service' => 'reddit',
 	),
 	array(
 		'service' => 'email',

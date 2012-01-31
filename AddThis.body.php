@@ -29,7 +29,7 @@ class AddThis {
 		global $wgAddThis, $wgAddThispubid, $wgAddThisHServ, $wgAddThisBackground, $wgAddThisBorder;
 
 		# Localisation for "Share"
-		$share = wfMsgExt( 'addthis', escape );
+		$share = wfMsgExt( 'addthis', 'escape' );
 
 		# Output AddThis widget
 		$output ='<!-- AddThis Button BEGIN -->
@@ -70,7 +70,7 @@ class AddThis {
 		}
 
 		# Localisation for "Share"
-		$share = wfMsgExt( 'addthis', escape );
+		$share = wfMsgExt( 'addthis', 'escape' );
 
 		# Output AddThis widget
 		$wgOut->addHTML('<!-- AddThis Button BEGIN -->
