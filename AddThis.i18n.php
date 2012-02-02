@@ -225,6 +225,13 @@ $messages['te'] = array(
 	'addthis' => 'పంచుకోండి',
 );
 
+/** Turkish (Türkçe)
+ * @author Incelemeelemani
+ */
+$messages['tr'] = array(
+	'addthis' => 'Paylaş',
+);
+
 /** Ukrainian (Українська)
  * @author Gucci Mane Burrr
  */
