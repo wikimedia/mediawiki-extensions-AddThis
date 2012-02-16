@@ -40,6 +40,13 @@ $messages['ast'] = array(
 	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
 );
 
+/** Bashkir (Башҡортса)
+ * @author Comp1089
+ */
+$messages['ba'] = array(
+	'addthis' => 'Күләгә',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
@@ -56,6 +63,14 @@ $messages['be-tarask'] = array(
 $messages['br'] = array(
 	'addthis' => 'Rannañ gant tud all',
 	'addthis-desc' => "Ouzhpennañ ar [http://www.addthis.com AddThis widget] d'ar varrenn-gostez ha diskouez war talbenn ar bajenn ur varrenn ostilhoù a c'hall bezañ eilet ne vern pelec'h en ur ober gant ar valizenn  <nowiki><addthis /></nowiki>",
+);
+
+/** Welsh (Cymraeg)
+ * @author Pwyll
+ */
+$messages['cy'] = array(
+	'addthis' => 'Rhannu',
+	'addthis-desc' => "Yn ychwanegu [http://addthis.com Ychwanegu'r teclyn hwn] i'r bar ochrol ac yn arddangos bar offer y gellir ei atgynhyrchu unrhyw le trwy ddefnyddio'r tag <nowiki><addthis/></nowiki> ar frig tudalennau .",
 );
 
 /** German (Deutsch)
