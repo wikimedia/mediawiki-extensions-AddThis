@@ -97,6 +97,13 @@ $messages['es'] = array(
 	'addthis-desc' => 'Añada [http://www.addthis.com AddThis widget] a la barra lateral y muestre una barra de herramientas en los encabezados de página que pueda ser reproducida en cualquier lugar mediante la inserción de la etiqueta <nowiki><addthis /></nowiki>',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'addthis' => 'به‌اشتراک‌گذاشتن',
+);
+
 /** French (Français)
  * @author Crochet.david
  * @author Gomoko
