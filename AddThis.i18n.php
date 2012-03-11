@@ -248,6 +248,13 @@ $messages['ru'] = array(
 	'addthis-desc' => 'Добавляет [http://www.addthis.com виджет AddThis] на боковую панель, а также показывает панель инструментов в заголовке статьи. Её также можно добавить в любое другое место с помощью тега <nowiki><addthis /></nowiki>',
 );
 
+/** Swedish (Svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'addthis' => 'Dela',
+);
+
 /** Tamil (தமிழ்)
  * @author Balajijagadesh
  */
