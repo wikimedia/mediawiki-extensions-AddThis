@@ -121,6 +121,14 @@ $messages['gl'] = array(
 	'addthis-desc' => 'Engade o [http://www.addthis.com widget AddThis] á barra lateral e mostra unha barra de ferramentas nas cabeceiras das páxinas que se pode reproducir en calquera sitio inserindo a etiqueta <nowiki><addthis /></nowiki>',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'addthis' => 'Teile',
+	'addthis-desc' => 'Ergänzt e [http://www.addthis.com AddThis-Widget] in dr Sytelyyscht un e Funktionslyyscht im Chopfberyych vun ere Wikisyte, wu mit em <nowiki><addthis /></nowiki>-Tag au an andere Stelle cha yygfiegt wäre',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Ofekalef
