@@ -230,6 +230,14 @@ $messages['nl'] = array(
 	'addthis-desc' => "Voegt een [http://www.addthis.com AddThis-widget] toe aan de menubalk en geeft een werkbalk weer bovenaan pagina's of waar het label <nowiki><addthis /></nowiki> wordt gebruikt",
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'addthis' => 'Deele',
+	'addthis-desc' => "Fieschd [http://www.addthis.com AddThis widget] uffde Saidelaischd un ä Wergzaischlaischd uffm Saidekobb, wu iwa'all mide Makierung <nowiki><addthis /></ nowiki> oan oanare Schdelle oigfieschd were kennen.",
+);
+
 /** Polish (Polski)
  * @author BeginaFelicysym
  */
@@ -254,6 +262,13 @@ $messages['pms'] = array(
 $messages['ru'] = array(
 	'addthis' => 'Поделиться',
 	'addthis-desc' => 'Добавляет [http://www.addthis.com виджет AddThis] на боковую панель, а также показывает панель инструментов в заголовке статьи. Её также можно добавить в любое другое место с помощью тега <nowiki><addthis /></nowiki>',
+);
+
+/** Sinhala (සිංහල)
+ * @author Singhalawap
+ */
+$messages['si'] = array(
+	'addthis' => 'හවුල්කරගන්න',
 );
 
 /** Swedish (Svenska)
