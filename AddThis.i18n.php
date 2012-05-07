@@ -168,6 +168,14 @@ $messages['id'] = array(
 	'addthis' => 'Bagikan',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'addthis' => '共有',
+	'addthis-desc' => '[http://www.addthis.com AddThis ウィジェット]をサイドバーに追加し、ページヘッダーにツールバーを表示する。<nowiki><addthis /></nowiki> タグを挿入すればどこにでも表示できる',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
