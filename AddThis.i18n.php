@@ -18,6 +18,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Gregory Varnum
+ * @author Purodha
  * @author Purodha 
  */
 $messages['qqq'] = array(
@@ -86,7 +87,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'addthis' => 'Źěliś',
-	'addthis-desc' => 'Pśidawa [http://www.addthis.com rozšyrjenje AddThis] bocnicy a napórajo rědowu kšomu, kótaraž pokazujo se w głowje boka, abo z pomocu elementa <nowiki><addthis /></nowiki>',
+	'addthis-desc' => 'Pśidawa [http://www.addthis.com rozšyrjenje AddThis] bocnicy a pokazujo rědowu kšomu w głowje na boku, což dajo se wšuźi zasunuś z pomocu elementa <nowiki><addthis /></nowiki>',
 );
 
 /** Spanish (Español)
@@ -183,6 +184,13 @@ $messages['ka'] = array(
 	'addthis' => 'გაზიარება',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Teju2friends
+ */
+$messages['kn'] = array(
+	'addthis' => 'ಹಂಚು',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
@@ -204,6 +212,13 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'addthis' => 'Deelen',
+);
+
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'addthis' => 'Ţhehkual rawh le',
 );
 
 /** Macedonian (Македонски)
