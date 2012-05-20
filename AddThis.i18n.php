@@ -74,6 +74,13 @@ $messages['cy'] = array(
 	'addthis-desc' => "Yn ychwanegu [http://addthis.com Ychwanegu'r teclyn hwn] i'r bar ochrol ac yn arddangos bar offer y gellir ei atgynhyrchu unrhyw le trwy ddefnyddio'r tag <nowiki><addthis/></nowiki> ar frig tudalennau .",
 );
 
+/** Danish (Dansk)
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'addthis' => 'Del',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
