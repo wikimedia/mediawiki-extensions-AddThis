@@ -176,6 +176,14 @@ $messages['id'] = array(
 	'addthis' => 'Bagikan',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'addthis' => 'Condividi',
+	'addthis-desc' => "Aggiunge il [http://www.addthis.com widget AddThis] alla barra laterale e mostra una barra dei strumenti nell'intestazione della pagina che può essere riprodotta in qualsiasi punto inserendo il codice <nowiki><addthis /></nowiki>",
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
