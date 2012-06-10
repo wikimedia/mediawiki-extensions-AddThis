@@ -344,7 +344,8 @@ $messages['tr'] = array(
 	'addthis' => 'Paylaş',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
+ * @author A1
  * @author Gucci Mane Burrr
  */
 $messages['uk'] = array(
