@@ -219,7 +219,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'addthis' => 'Dat-Dobeidonn',
-	'addthis-desc' => 'Deiht ene [http://www.addthis.com <i lang="en>AddThis</i> Befähl] för se sidebar en et Wiki un zeisch en Wärkzüschleß em Kopp vun Sigge, di övverall med enem <nowiki><addthis /></nowiki>-Befähl noch ens hen jemaat wääde kann.',
+	'addthis-desc' => 'Deiht ene [http://www.addthis.com <i lang="en>AddThis</i> Befähl] för en de <i lang="en">sidebar</i> en et Wiki un zeisch en Wärkzüschleß em Kopp vun Sigge, di övverall med enem <nowiki><addthis /></nowiki>-Befähl noch ens hen jemaat wääde kann.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
