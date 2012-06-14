@@ -33,7 +33,7 @@ $messages['af'] = array(
 	'addthis' => 'Deel',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -57,7 +57,7 @@ $messages['be-tarask'] = array(
 	'addthis-desc' => 'Дадае [http://www.addthis.com гаджэт AddThis] у бакавую панэль і паказвае панэль каля загалоўку старонкі, якую таксама можа дадаць у любое месца тэгам <nowiki><addthis /></nowiki>',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -74,7 +74,7 @@ $messages['cy'] = array(
 	'addthis-desc' => "Yn ychwanegu [http://addthis.com Ychwanegu'r teclyn hwn] i'r bar ochrol ac yn arddangos bar offer y gellir ei atgynhyrchu unrhyw le trwy ddefnyddio'r tag <nowiki><addthis/></nowiki> ar frig tudalennau .",
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -97,7 +97,7 @@ $messages['dsb'] = array(
 	'addthis-desc' => 'Pśidawa [http://www.addthis.com rozšyrjenje AddThis] bocnicy a pokazujo rědowu kšomu w głowje na boku, což dajo se wšuźi zasunuś z pomocu elementa <nowiki><addthis /></nowiki>',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -112,7 +112,7 @@ $messages['fa'] = array(
 	'addthis' => 'به‌اشتراک‌گذاشتن',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Gomoko
  */
@@ -154,14 +154,14 @@ $messages['hsb'] = array(
 	'addthis-desc' => 'Přidawa [http://www.addthis.com rozšěrjenje AddThis] bóčnicy a wutwori gratowu lajstu zwobraznjenu we hłowje strony, kotraž da so z pomocu elementa <nowiki><addthis /></nowiki> něhdźe zasunyć',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
 	'addthis' => 'Megosztás',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -176,7 +176,7 @@ $messages['id'] = array(
 	'addthis' => 'Bagikan',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -236,7 +236,7 @@ $messages['lus'] = array(
 	'addthis' => 'Ţhehkual rawh le',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -276,7 +276,7 @@ $messages['pfl'] = array(
 	'addthis-desc' => "Fieschd [http://www.addthis.com AddThis widget] uffde Saidelaischd un ä Wergzaischlaischd uffm Saidekobb, wu iwa'all mide Makierung <nowiki><addthis /></ nowiki> oan oanare Schdelle oigfieschd were kennen.",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -293,14 +293,14 @@ $messages['pms'] = array(
 	'addthis-desc' => "A gionta l'acessòri [http://www.addthis.com AddThis] a la bara lateral e a smon na bara d'utiss an sj'antestassion ëd la pàgina che a peulo esse arproduvù daspërtut an anserend la tichëtta <nowiki><addthis /></nowiki>",
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'addthis' => 'Condivide',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Unikum111
  * @author Александр Сигачёв
  */
@@ -316,7 +316,7 @@ $messages['si'] = array(
 	'addthis' => 'හවුල්කරගන්න',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -361,14 +361,14 @@ $messages['yi'] = array(
 	'addthis-desc' => "לייגט צו [http://www.addthis.com AddThis widget] צום זײַטפאס און ווײַזט א געצייגלייסט אויף בלאט קעפלעך וואס מ'קען קאפירן נארוואו מיטן  <nowiki><addthis /></nowiki> טאַג",
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Shizhao
  */
 $messages['zh-hans'] = array(
 	'addthis' => '分享',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $messages['zh-hant'] = array(
 	'addthis' => '分享',
 );
