@@ -338,6 +338,14 @@ $messages['te'] = array(
 	'addthis' => 'పంచుకోండి',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'addthis' => 'Ibahagi',
+	'addthis-desc' => 'Nagdaragdag ng [http://www.addthis.com widyet na Idagdag Ito] sa panggilid na bareta at nagpapalitaw ng isang bareta ng kasangkapan sa mga paulo na maaaring gayahin saan man sa pamamagitan ng pagsisingit ng tatak na <nowiki><addthis /></nowiki>',
+);
+
 /** Turkish (Türkçe)
  * @author Incelemeelemani
  */
