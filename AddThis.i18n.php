@@ -48,7 +48,7 @@ $messages['ba'] = array(
 	'addthis' => 'Күләгә',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -89,7 +89,7 @@ $messages['de'] = array(
 	'addthis-desc' => 'Ergänzt ein [http://www.addthis.com AddThis-Widget] in der Seitenleiste sowie eine Funktionsleiste im Kopfbereich einer Wikiseite, die mit dem <nowiki><addthis /></nowiki>-Tag auch an anderen Stellen eingefügt werden kann',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -121,7 +121,7 @@ $messages['fr'] = array(
 	'addthis-desc' => "Ajouter le [http://www.addthis.com widget AddThis] à la barre latérale et affiche une barre d'outil dans les entêtes de la page qui peuvent être reproduits n'importe où en insérant la balise <nowiki><addthis /></nowiki>",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -146,7 +146,7 @@ $messages['he'] = array(
 	'addthis-desc' => 'הוספת [http://www.addthis.com יישומון AddThis] לסרגל הצד והצגת סרגל בכותרות הדפים שיכולים להיות משוכפלים בכל מקום באמצעות הוספת התג <nowiki><addthis /></nowiki>',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
