@@ -33,6 +33,13 @@ $messages['af'] = array(
 	'addthis' => 'Deel',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'addthis' => 'বিতৰণ',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
