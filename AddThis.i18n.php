@@ -237,6 +237,13 @@ $messages['lb'] = array(
 	'addthis-desc' => 'Setzt den [http://www.addthis.com AddThis Widget] an de säitleche Menü derbäi a weist eng Toolbar uewen op der säit déi iwwerall genotzt ka ginn andeem den <nowiki><addthis /></nowiki> Tag dragesat gëtt',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'addthis' => 'Dalintis',
+);
+
 /** Lushai (Mizo ţawng)
  * @author RMizo
  */
