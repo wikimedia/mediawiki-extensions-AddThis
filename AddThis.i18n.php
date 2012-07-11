@@ -153,6 +153,13 @@ $messages['he'] = array(
 	'addthis-desc' => 'הוספת [http://www.addthis.com יישומון AddThis] לסרגל הצד והצגת סרגל בכותרות הדפים שיכולים להיות משוכפלים בכל מקום באמצעות הוספת התג <nowiki><addthis /></nowiki>',
 );
 
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ * @author Thakurji
+ */
+$messages['hif-latn'] = array(
+	'addthis' => 'Share karo',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
