@@ -315,6 +315,14 @@ $messages['pms'] = array(
 	'addthis-desc' => "A gionta l'acessòri [http://www.addthis.com AddThis] a la bara lateral e a smon na bara d'utiss an sj'antestassion ëd la pàgina che a peulo esse arproduvù daspërtut an anserend la tichëtta <nowiki><addthis /></nowiki>",
 );
 
+/** Portuguese (português)
+ * @author SandroHc
+ */
+$messages['pt'] = array(
+	'addthis' => 'Partilhar',
+	'addthis-desc' => 'Adiciona o [http://www.addthis.com widget AddThis] à barra lateral e mostra uma barra de ferramentas nos cabeçalhos da página que podem ser reproduzidos em qualquer lugar inserindo a etiqueta <nowiki><addthis /></nowiki>',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
