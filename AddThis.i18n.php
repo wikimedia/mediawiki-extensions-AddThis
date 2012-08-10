@@ -82,10 +82,12 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Hylle
  * @author Sarrus
  */
 $messages['da'] = array(
 	'addthis' => 'Del',
+	'addthis-desc' => "Tilføjer [http://www.addthis.com AddThis widget] til sidebjælken og viser en værktøjslinje på sidehovederne som kan genskabes hvor som helst ved at indsætte <nowiki><addthis /></nowiki> tag'et",
 );
 
 /** German (Deutsch)
