@@ -48,7 +48,7 @@ $messages['ast'] = array(
 	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Comp1089
  */
 $messages['ba'] = array(
@@ -283,6 +283,14 @@ $messages['ms'] = array(
 	'addthis-desc' => 'Menambahkan [http://www.addthis.com widget AddThis] kepada palang sisi serta memaparkan palang alatan pada pengatas laman yang boleh dipaparkan semula di mana-mana dengan menyisipkan tag <nowiki><addthis /></nowiki>',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Event
+ */
+$messages['nb'] = array(
+	'addthis' => 'Del',
+	'addthis-desc' => 'Legger inn et [http://www.addthis.com AddThis-element] i sidepanelet samt viser en verktøylinje for sideoverskrifter som kan reproduseres hvor som helst ved å ta med en <nowiki><addthis /></nowiki>-tag',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -349,10 +357,12 @@ $messages['si'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'addthis' => 'Dela',
+	'addthis-desc' => 'Lägger till [http://www.addthis.com AddThis widget] i sidofältet och visar ett verktygsfält på sidhuvuden som kan reproduceras överallt genom att infoga de <nowiki><addthis /></nowiki> taggen',
 );
 
 /** Tamil (தமிழ்)
