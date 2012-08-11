@@ -325,6 +325,13 @@ $messages['pms'] = array(
 	'addthis-desc' => "A gionta l'acessòri [http://www.addthis.com AddThis] a la bara lateral e a smon na bara d'utiss an sj'antestassion ëd la pàgina che a peulo esse arproduvù daspërtut an anserend la tichëtta <nowiki><addthis /></nowiki>",
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'addthis' => 'شريکول',
+);
+
 /** Portuguese (português)
  * @author SandroHc
  */
