@@ -73,6 +73,13 @@ $messages['br'] = array(
 	'addthis-desc' => "Ouzhpennañ ar [http://www.addthis.com AddThis widget] d'ar varrenn-gostez ha diskouez war talbenn ar bajenn ur varrenn ostilhoù a c'hall bezañ eilet ne vern pelec'h en ur ober gant ar valizenn  <nowiki><addthis /></nowiki>",
 );
 
+/** Catalan (català)
+ * @author Oç
+ */
+$messages['ca'] = array(
+	'addthis' => 'Compartiu',
+);
+
 /** Welsh (Cymraeg)
  * @author Pwyll
  */
