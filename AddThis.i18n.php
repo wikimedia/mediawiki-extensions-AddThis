@@ -128,6 +128,13 @@ $messages['fa'] = array(
 	'addthis' => 'به‌اشتراک‌گذاشتن',
 );
 
+/** Finnish (suomi)
+ * @author Beluga
+ */
+$messages['fi'] = array(
+	'addthis' => 'Jaa',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Gomoko
@@ -135,6 +142,13 @@ $messages['fa'] = array(
 $messages['fr'] = array(
 	'addthis' => 'Partager',
 	'addthis-desc' => "Ajouter le [http://www.addthis.com widget AddThis] à la barre latérale et affiche une barre d'outil dans les entêtes de la page qui peuvent être reproduits n'importe où en insérant la balise <nowiki><addthis /></nowiki>",
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'addthis' => 'Partagiér',
 );
 
 /** Galician (galego)
@@ -377,6 +391,13 @@ $messages['si'] = array(
 $messages['sv'] = array(
 	'addthis' => 'Dela',
 	'addthis-desc' => 'Lägger till [http://www.addthis.com AddThis widget] i sidofältet och visar ett verktygsfält på sidhuvuden som kan reproduceras överallt genom att infoga de <nowiki><addthis /></nowiki> taggen',
+);
+
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'addthis' => 'Gawa',
 );
 
 /** Tamil (தமிழ்)
