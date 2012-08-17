@@ -438,6 +438,13 @@ $messages['uk'] = array(
 	'addthis-desc' => 'Додає [http://www.addthis.com кнопку AddThis] на бічну панель і створює панель інструментів, що відображається у заголовку сторінки або за допомогою тегу <nowiki><addthis /></nowiki>',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'addthis' => 'حصہ',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
