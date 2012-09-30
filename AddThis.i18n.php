@@ -445,6 +445,14 @@ $messages['ur'] = array(
 	'addthis' => 'حصہ',
 );
 
+/** Waray (Winaray)
+ * @author Harvzsf
+ */
+$messages['war'] = array(
+	'addthis' => 'Igsaro',
+	'addthis-desc' => 'Nagdudugang han [http://www.addthis.com AddThis widget] ngadto han sidebar ngan nagpapakita hin toolbar dida han mga header han pakli nga puyde maipakita bisan diin pinaagi hin pagsuksok han <nowiki><addthis /></nowiki> nga tag',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
