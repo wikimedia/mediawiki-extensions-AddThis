@@ -55,7 +55,7 @@ $messages['ba'] = array(
 	'addthis' => 'Күләгә',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -304,7 +304,7 @@ $messages['ms'] = array(
 	'addthis-desc' => 'Menambahkan [http://www.addthis.com widget AddThis] kepada palang sisi serta memaparkan palang alatan pada pengatas laman yang boleh dipaparkan semula di mana-mana dengan menyisipkan tag <nowiki><addthis /></nowiki>',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  */
 $messages['nb'] = array(
@@ -461,14 +461,14 @@ $messages['yi'] = array(
 	'addthis-desc' => "לייגט צו [http://www.addthis.com AddThis widget] צום זײַטפאס און ווײַזט א געצייגלייסט אויף בלאט קעפלעך וואס מ'קען קאפירן נארוואו מיטן  <nowiki><addthis /></nowiki> טאַג",
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Shizhao
  */
 $messages['zh-hans'] = array(
 	'addthis' => '分享',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $messages['zh-hant'] = array(
 	'addthis' => '分享',
 );
