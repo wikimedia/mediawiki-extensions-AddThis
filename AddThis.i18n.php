@@ -105,6 +105,13 @@ $messages['de'] = array(
 	'addthis-desc' => 'Ergänzt ein [http://www.addthis.com AddThis-Widget] in der Seitenleiste sowie eine Funktionsleiste im Kopfbereich einer Wikiseite, die mit dem <nowiki><addthis /></nowiki>-Tag auch an anderen Stellen eingefügt werden kann',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'addthis' => 'Vıla ke',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
