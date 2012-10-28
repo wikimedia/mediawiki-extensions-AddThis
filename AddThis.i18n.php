@@ -281,7 +281,7 @@ $messages['lt'] = array(
 	'addthis' => 'Dalintis',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
