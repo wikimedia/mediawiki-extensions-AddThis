@@ -48,6 +48,13 @@ $messages['ast'] = array(
 	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
 );
 
+/** تورکجه (تورکجه)
+ * @author Amir a57
+ */
+$messages['azb'] = array(
+	'addthis' => 'پایلاشما ائئتمک',
+);
+
 /** Bashkir (башҡортса)
  * @author Comp1089
  */
