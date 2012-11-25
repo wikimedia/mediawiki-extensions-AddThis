@@ -483,7 +483,9 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  */
 $messages['zh-hant'] = array(
 	'addthis' => '分享',
+	'addthis-desc' => '將[http://www.addthis.com AddThis小工具]添加至側邊欄並於頁面頂上顯示工具列以於任何位置插入<nowiki><addthis><addthis /></nowiki>標記',
 );
