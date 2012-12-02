@@ -135,6 +135,14 @@ $messages['es'] = array(
 	'addthis-desc' => 'Añada [http://www.addthis.com AddThis widget] a la barra lateral y muestre una barra de herramientas en los encabezados de página que pueda ser reproducida en cualquier lugar mediante la inserción de la etiqueta <nowiki><addthis /></nowiki>',
 );
 
+/** Basque (euskara)
+ * @author Theklan
+ */
+$messages['eu'] = array(
+	'addthis' => 'Partekatu',
+	'addthis-desc' => '[http://www.addthis.com AddThis widgeta] gehitzen du albo-barran eta tresna barra erakusten du orrialdeen goiburuetan. Edonon gehi daiteke <nowiki><addthis /></nowiki> etiketa gehituz gero.',
+);
+
 /** Persian (فارسی)
  * @author ZxxZxxZ
  */
