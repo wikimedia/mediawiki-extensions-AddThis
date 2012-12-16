@@ -20,10 +20,11 @@ $messages['en'] = array(
  * @author Gregory Varnum
  * @author Purodha
  * @author Purodha 
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'addthis' => 'Used for sidebar header and toolbar prefix',
-	'addthis-desc' => '{{desc}}',
+	'addthis-desc' => '{{desc|name=Add This|url=http://www.mediawiki.org/wiki/Extension:AddThis}}',
 );
 
 /** Afrikaans (Afrikaans)
