@@ -72,6 +72,13 @@ $messages['be-tarask'] = array(
 	'addthis-desc' => 'Дадае [http://www.addthis.com гаджэт AddThis] у бакавую панэль і паказвае панэль каля загалоўку старонкі, якую таксама можа дадаць у любое месца тэгам <nowiki><addthis /></nowiki>',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'addthis' => 'বণ্টন',
+);
+
 /** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
@@ -86,6 +93,13 @@ $messages['br'] = array(
  */
 $messages['ca'] = array(
 	'addthis' => 'Compartiu',
+);
+
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'addthis' => 'Sdílet',
 );
 
 /** Welsh (Cymraeg)
@@ -126,6 +140,21 @@ $messages['diq'] = array(
 $messages['dsb'] = array(
 	'addthis' => 'Źěliś',
 	'addthis-desc' => 'Pśidawa [http://www.addthis.com rozšyrjenje AddThis] bocnicy a pokazujo rědowu kšomu w głowje na boku, což dajo se wšuźi zasunuś z pomocu elementa <nowiki><addthis /></nowiki>',
+);
+
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'addthis' => 'Κοινοποίηση',
+);
+
+/** Esperanto (Esperanto)
+ * @author Blahma
+ */
+$messages['eo'] = array(
+	'addthis' => 'Kundividi',
+	'addthis-desc' => 'Aldonas [http://www.addthis.com fenestraĵon AddThis] en la flankan strion kaj aperigas ilobreton en la paĝoĉapoj kiun eblas ajnaloke reprodukti per enmeto de la etikedo <nowiki><addthis /></nowiki>',
 );
 
 /** Spanish (español)
@@ -384,6 +413,13 @@ $messages['pt'] = array(
 	'addthis-desc' => 'Adiciona o [http://www.addthis.com widget AddThis] à barra lateral e mostra uma barra de ferramentas nos cabeçalhos da página que podem ser reproduzidos em qualquer lugar inserindo a etiqueta <nowiki><addthis /></nowiki>',
 );
 
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'addthis' => 'Distribuire',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
@@ -398,6 +434,13 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'addthis' => 'Поделиться',
 	'addthis-desc' => 'Добавляет [http://www.addthis.com виджет AddThis] на боковую панель, а также показывает панель инструментов в заголовке статьи. Её также можно добавить в любое другое место с помощью тега <nowiki><addthis /></nowiki>',
+);
+
+/** Rusyn (русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'addthis' => 'Подїлити ся',
 );
 
 /** Sinhala (සිංහල)
