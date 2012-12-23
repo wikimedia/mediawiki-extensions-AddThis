@@ -72,6 +72,13 @@ $messages['be-tarask'] = array(
 	'addthis-desc' => 'Дадае [http://www.addthis.com гаджэт AddThis] у бакавую панэль і паказвае панэль каля загалоўку старонкі, якую таксама можа дадаць у любое месца тэгам <nowiki><addthis /></nowiki>',
 );
 
+/** Bulgarian (български)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['bg'] = array(
+	'addthis' => 'Споделяне',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */
@@ -263,6 +270,7 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'addthis' => 'Bagikan',
+	'addthis-desc' => 'Menambahkan [http://www.addthis.com widget AddThis] ke bilah sisi dan menampilkan kotak peralatan di kepala halaman yang dapat direproduksi di mana saja dengan menambahkan tag <nowiki><addthis /></nowiki>',
 );
 
 /** Italian (italiano)
