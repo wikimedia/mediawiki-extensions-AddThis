@@ -58,9 +58,11 @@ $messages['azb'] = array(
 
 /** Bashkir (башҡортса)
  * @author Comp1089
+ * @author Sagan
  */
 $messages['ba'] = array(
-	'addthis' => 'Күләгә',
+	'addthis' => 'Уртаҡлашырға',
+	'addthis-desc' => '[http://www.addthis.com виджет AddThis] ситтәге панельгә өҫтәлә, һәм шулай уҡ ҡорамалдар панелендә мәҡәлә исемендә күренә. <nowiki><addthis /></nowiki> тегы ярҙамында теләһә ҡайһы урынға ҡуйып була.',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -181,10 +183,12 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Dalba
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'addthis' => 'به‌اشتراک‌گذاشتن',
+	'addthis-desc' => '[http://www.addthis.com ابزارک AddThis] را به نوار کناری می‌افزاید و یک نوار ابزار در سرآیند صفحه‌ها نمایش می‌دهد که می‌توان آن‌ها را در هر جایی با استفاده از برچسب <nowiki><addthis /></nowiki> tag بازتولید کرد',
 );
 
 /** Finnish (suomi)
@@ -501,6 +505,13 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'addthis' => 'Paylaş',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Arlin
+ */
+$messages['ug-arab'] = array(
+	'addthis' => 'ئورتاقلىشىش',
 );
 
 /** Ukrainian (українська)
