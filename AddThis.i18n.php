@@ -193,9 +193,11 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Beluga
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'addthis' => 'Jaa',
+	'addthis-desc' => 'Lisää [http://www.addthis.com AddThis-pienohjelman] sivupalkkiin ja näyttää sivujen ylälaidassa työkalupalkin, jonka voi liittää minne vain merkinnällä <nowiki><addthis /></nowiki>',
 );
 
 /** French (français)
