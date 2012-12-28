@@ -49,11 +49,13 @@ $messages['ast'] = array(
 	'addthis-desc' => "Amiesta'l [http://www.addthis.com widget AddThis] a la barra llateral y amuesa una barra de ferramientes nes testeres de les páxines que se pue reproducir en cualesquier sitiu inxertando la etiqueta <nowiki><addthis /></nowiki>",
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Amir a57
+ * @author Mousa
  */
 $messages['azb'] = array(
 	'addthis' => 'پایلاشما ائئتمک',
+	'addthis-desc' => '[http://www.addthis.com AddThis ویجِتی]نی کنار چوبوغونا آرتیرار و صحیفه باشلیقلاریندا بیر آراج چوبوغو گؤسترر کی اونی <nowiki><addthis /></nowiki> اِتیکِتینی سالماقلا هر یئره یئنی‌دن یارادماق اولار',
 );
 
 /** Bashkir (башҡортса)
@@ -172,6 +174,13 @@ $messages['eo'] = array(
 $messages['es'] = array(
 	'addthis' => 'Compartir',
 	'addthis-desc' => 'Añada [http://www.addthis.com AddThis widget] a la barra lateral y muestre una barra de herramientas en los encabezados de página que pueda ser reproducida en cualquier lugar mediante la inserción de la etiqueta <nowiki><addthis /></nowiki>',
+);
+
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'addthis' => 'Jaga',
 );
 
 /** Basque (euskara)
@@ -345,6 +354,14 @@ $messages['lt'] = array(
  */
 $messages['lus'] = array(
 	'addthis' => 'Ţhehkual rawh le',
+);
+
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'addthis' => 'Sebarna',
+	'addthis-desc' => 'Nambahna [http://www.addthis.com widget AddThis] maring bilah sisi lan nampilna kotak pekakas nang sirah kaca sing teyeng direproduksi nang endi baen nganggo cara nambahna tag <nowiki><addthis /></nowiki>',
 );
 
 /** Macedonian (македонски)
