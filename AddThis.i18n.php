@@ -488,6 +488,13 @@ $messages['si'] = array(
 	'addthis' => 'හවුල්කරගන්න',
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'addthis' => 'Дели',
+);
+
 /** Swedish (svenska)
  * @author Ainali
  * @author WikiPhoenix
