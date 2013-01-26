@@ -327,10 +327,11 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'addthis' => '공유하기',
-	'addthis-desc' => '[http://www.addthis.com AddThis 위젯]을 사이드바에 추가하고 문서 상단에 툴바를 표시하며 <nowiki><addthis /></nowiki> 태그를 통해 위젯을 어디에나 끼워넣을 수 있습니다.',
+	'addthis-desc' => '[http://www.addthis.com AddThis 위젯]을 사이드바에 추가하고 문서 상단에 툴바를 표시하며 <nowiki><addthis /></nowiki> 태그를 통해 위젯을 어디에나 끼워넣을 수 있습니다',
 );
 
 /** Colognian (Ripoarisch)
