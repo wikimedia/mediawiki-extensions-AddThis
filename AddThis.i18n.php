@@ -318,6 +318,13 @@ $messages['ka'] = array(
 	'addthis' => 'გაზიარება',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
+ */
+$messages['km'] = array(
+	'addthis' => 'ចែករំលែង',
+);
+
 /** Kannada (ಕನ್ನಡ)
  * @author Teju2friends
  */
