@@ -549,6 +549,13 @@ $messages['tr'] = array(
 	'addthis' => 'Paylaş',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'addthis' => 'ⴼⵙⴻⵔ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Arlin
  */
