@@ -23,7 +23,8 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'addthis' => 'Used for sidebar header and toolbar prefix',
+	'addthis' => 'Used for sidebar header and toolbar prefix.
+{{Identical|Share}}',
 	'addthis-desc' => '{{desc|name=Add This|url=http://www.mediawiki.org/wiki/Extension:AddThis}}',
 );
 
