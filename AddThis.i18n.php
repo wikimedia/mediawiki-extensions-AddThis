@@ -598,9 +598,11 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Shizhao
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'addthis' => '分享',
+	'addthis-desc' => '增加[http://www.addthis.com AddThis]小工具到侧边栏，并在页面头显示一个工具栏以便在任何地方插入<nowiki><addthis /></nowiki>标签',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
