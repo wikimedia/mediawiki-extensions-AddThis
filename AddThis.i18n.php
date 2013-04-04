@@ -35,6 +35,13 @@ $messages['af'] = array(
 	'addthis' => 'Deel',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'addthis' => 'مشاركة',
+);
+
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
