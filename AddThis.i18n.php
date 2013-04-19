@@ -75,6 +75,14 @@ $messages['ba'] = array(
 	'addthis-desc' => '[http://www.addthis.com виджет AddThis] ситтәге панельгә өҫтәлә, һәм шулай уҡ ҡорамалдар панелендә мәҡәлә исемендә күренә. <nowiki><addthis /></nowiki> тегы ярҙамында теләһә ҡайһы урынға ҡуйып була.',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'addthis' => 'Iheras',
+	'addthis-desc' => 'Nagdudugang [http://www.addthis.com AddThis widget] sa gilid-huyagan asin nagpapahiling nin sarong gamit-huyagan sa mga pamayuhan nin pahina na mapupuwedeng arogon saen man sa paagi nin pagsisingit kan tatak na <nowiki><addthis /></nowiki>',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
