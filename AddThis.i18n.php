@@ -225,6 +225,13 @@ $messages['fi'] = array(
 	'addthis-desc' => 'Lisää [http://www.addthis.com AddThis-pienohjelman] sivupalkkiin ja näyttää sivujen ylälaidassa työkalupalkin, jonka voi liittää minne vain merkinnällä <nowiki><addthis /></nowiki>',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'addthis' => 'Deil',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Gomoko
@@ -480,6 +487,13 @@ $messages['ps'] = array(
 $messages['pt'] = array(
 	'addthis' => 'Partilhar',
 	'addthis-desc' => 'Adiciona o [http://www.addthis.com widget AddThis] à barra lateral e mostra uma barra de ferramentas nos cabeçalhos da página que podem ser reproduzidos em qualquer lugar inserindo a etiqueta <nowiki><addthis /></nowiki>',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
+ */
+$messages['pt-br'] = array(
+	'addthis' => 'Compartilhar',
 );
 
 /** Romanian (română)
