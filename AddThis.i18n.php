@@ -527,6 +527,14 @@ $messages['rue'] = array(
 	'addthis' => 'Подїлити ся',
 );
 
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author OC Ripper
+ */
+$messages['sh'] = array(
+	'addthis' => 'Podijelite',
+	'addthis-desc' => 'Dodaje [http://www.addthis.com widget AddThis] na bočni stupac i prikazuje toolbar na zaglavlju stranicu koji se može reproducirati svuda preko ubacivanja <nowiki><addthis /></nowiki> taga',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  */
