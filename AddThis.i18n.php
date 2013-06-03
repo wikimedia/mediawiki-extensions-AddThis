@@ -42,7 +42,7 @@ $messages['ar'] = array(
 	'addthis' => 'مشاركة',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -439,7 +439,7 @@ $messages['ms'] = array(
 	'addthis-desc' => 'Menambahkan [http://www.addthis.com widget AddThis] kepada palang sisi serta memaparkan palang alatan pada pengatas laman yang boleh dipaparkan semula di mana-mana dengan menyisipkan tag <nowiki><addthis /></nowiki>',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  */
 $messages['nb'] = array(
