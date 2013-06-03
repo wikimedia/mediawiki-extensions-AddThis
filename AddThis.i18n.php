@@ -264,6 +264,13 @@ $messages['gsw'] = array(
 	'addthis-desc' => 'Ergänzt e [http://www.addthis.com AddThis-Widget] in dr Sytelyyscht un e Funktionslyyscht im Chopfberyych vun ere Wikisyte, wu mit em <nowiki><addthis /></nowiki>-Tag au an andere Stelle cha yygfiegt wäre',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
+ */
+$messages['gu'] = array(
+	'addthis' => 'વહેંચો',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Ofekalef
@@ -544,9 +551,11 @@ $messages['si'] = array(
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
+ * @author TheStefan12345
  */
 $messages['sr-ec'] = array(
 	'addthis' => 'Дели',
+	'addthis-desc' => 'Додаје [http://www.addthis.com AddThis] у бочну колону у приказује мени на заглављу стране који се може свуда репродуковати убацивањем <nowiki><addthis /></nowiki> ознаке',
 );
 
 /** Swedish (svenska)
