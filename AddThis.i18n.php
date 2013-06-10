@@ -230,6 +230,7 @@ $messages['fi'] = array(
  */
 $messages['fo'] = array(
 	'addthis' => 'Deil',
+	'addthis-desc' => "Leggur afturat [http://www.addthis.com AddThis widget] til síðubjálkan og vísir tóllinju ovast á síðuni, sum kann verða endurskapt hvar sum helst við at innseta <nowiki><addthis /></nowiki> tag'ið",
 );
 
 /** French (français)
@@ -454,6 +455,13 @@ $messages['nb'] = array(
 $messages['nl'] = array(
 	'addthis' => 'Delen',
 	'addthis-desc' => "Voegt een [http://www.addthis.com AddThis-widget] toe aan de menubalk en geeft een werkbalk weer bovenaan pagina's of waar het label <nowiki><addthis /></nowiki> wordt gebruikt",
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'addthis' => 'Partejar',
 );
 
 /** Pälzisch (Pälzisch)
