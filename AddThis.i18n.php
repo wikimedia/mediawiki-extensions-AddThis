@@ -249,6 +249,14 @@ $messages['frp'] = array(
 	'addthis' => 'Partagiér',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'addthis' => 'Skaft',
+	'addthis-desc' => 'Skraft en [http://www.addthis.com AddThis-widget] tu det sidjenliist an at funktjuunsliist boowen auer det wiki-sidj, diar mä det <nowiki><addthis /></nowiki>-tag uk huarööders iinsaat wurd koon.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
