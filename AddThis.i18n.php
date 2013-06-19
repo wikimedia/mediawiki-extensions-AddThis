@@ -334,6 +334,13 @@ $messages['id'] = array(
 	'addthis-desc' => 'Menambahkan [http://www.addthis.com widget AddThis] ke bilah sisi dan menampilkan kotak peralatan di kepala halaman yang dapat direproduksi di mana saja dengan menambahkan tag <nowiki><addthis /></nowiki>',
 );
 
+/** Icelandic (íslenska)
+ * @author S.Örvarr.S
+ */
+$messages['is'] = array(
+	'addthis' => 'Deila',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
