@@ -368,7 +368,7 @@ $messages['ka'] = array(
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'addthis' => 'ចែករំលែង',
+	'addthis' => 'ចែករំលែក',
 );
 
 /** Kannada (ಕನ್ನಡ)
