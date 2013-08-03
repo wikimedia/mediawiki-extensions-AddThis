@@ -572,6 +572,13 @@ $messages['si'] = array(
 	'addthis' => 'හවුල්කරගන්න',
 );
 
+/** Slovenian (slovenščina)
+ * @author Yerpo
+ */
+$messages['sl'] = array(
+	'addthis' => 'Deli',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author TheStefan12345
