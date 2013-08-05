@@ -442,9 +442,11 @@ $messages['ml'] = array(
 
 /** Marathi (मराठी)
  * @author Kaajawa
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'addthis' => 'वाटा',
+	'addthis-desc' => '[http://www.addthis.com संयंत्र-जोडा] हे कड-पट्टीकेस(साईडबार) जोडते व पानाच्या शीर्षात एक साधनपट्टीका दाखविते,जी साधनपट्टीका, <nowiki><addthis /></nowiki> ही खूणपताका टाकुन कुठेही पुनर्निर्मित करता येते.',
 );
 
 /** Malay (Bahasa Melayu)
