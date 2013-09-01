@@ -522,10 +522,12 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
  * @author Luckas
  */
 $messages['pt-br'] = array(
 	'addthis' => 'Compartilhar',
+	'addthis-desc' => 'Adiciona [http://www.addthis.com o widget AddThis] na barra lateral e exibe uma barra de ferramentas nos cabeçalhos das páginas, e pode ser reproduzida em qualquer lugar inserindo a tag <nowiki><addthis /></nowiki>',
 );
 
 /** Romanian (română)
