@@ -576,6 +576,13 @@ $messages['si'] = array(
 	'addthis' => 'හවුල්කරගන්න',
 );
 
+/** Slovak (slovenčina)
+ * @author Sudo77(new)
+ */
+$messages['sk'] = array(
+	'addthis' => 'Zdieľať',
+);
+
 /** Slovenian (slovenščina)
  * @author Yerpo
  */
