@@ -116,10 +116,12 @@ $messages['br'] = array(
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author Oç
  */
 $messages['ca'] = array(
 	'addthis' => 'Compartiu',
+	'addthis-desc' => "Afegeix [http://www.addthis.com el giny AddThis] a la barra lateral i mostra una barra d'eines en les capçaleres de les pàgines que es pot reproduir arreu, mitjançant la inserció de l'etiqueta <nowiki><addthis /></nowiki>",
 );
 
 /** Czech (česky)
