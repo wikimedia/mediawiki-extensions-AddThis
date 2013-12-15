@@ -403,7 +403,7 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'addthis' => 'Deelen',
-	'addthis-desc' => 'Setzt den [http://www.addthis.com AddThis Widget] an de säitleche Menü dobäi a weist eng Toolbar uewen op der säit déi iwwerall genotzt ka ginn andeem den <nowiki><addthis /></nowiki> Tag dragesat gëtt',
+	'addthis-desc' => 'Setzt den [http://www.addthis.com AddThis Widget] an de säitleche Menü derbäi a weist eng Toolbar uewen op der säit déi iwwerall genotzt ka ginn andeem den <nowiki><addthis /></nowiki> Tag dragesat gëtt',
 );
 
 /** Lithuanian (lietuvių)
