@@ -59,7 +59,7 @@ class AddThis {
 	 */
 	public static function AddThisHeader( &$article, &$outputDone, &$pcache ) {
 		global $wgOut, $wgAddThispubid, $wgAddThis, $wgAddThisHeader, $wgAddThisMain,
-		       $wgRequest, $wgAddThisHServ, $wgAddThisBackground, $wgAddThisBorder;
+		       $wgAddThisHServ, $wgAddThisBackground, $wgAddThisBorder;
 
 		# Check if page is in content namespace and the setting to enable/disable article header tooblar either on the main page or at all
 		if ( !MWNamespace::isContent( $article->getTitle()->getNamespace() )
