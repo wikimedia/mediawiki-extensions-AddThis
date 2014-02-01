@@ -587,10 +587,12 @@ $messages['sk'] = array(
 );
 
 /** Slovenian (slovenščina)
+ * @author Dbc334
  * @author Yerpo
  */
 $messages['sl'] = array(
 	'addthis' => 'Deli',
+	'addthis-desc' => 'Doda [http://www.addthis.com gradnik AddThis] v stransko vrstico in prikaže orodno vrstico v glavi strani, kar je možno ponoviti kjer koli z vstavljanjem oznake <nowiki><addthis /></nowiki>',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
