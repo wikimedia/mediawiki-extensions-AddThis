@@ -564,6 +564,14 @@ $messages['rue'] = array(
 	'addthis' => 'Подїлити ся',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'addthis' => 'shair',
+	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] til the sidebaur an displays ae tuilbaur oan page headers that can be reproduced oniwhaur bi insertin the <nowiki><addthis /></nowiki> tag',
+);
+
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
