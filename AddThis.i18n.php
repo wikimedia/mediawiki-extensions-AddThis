@@ -282,6 +282,14 @@ $messages['gu'] = array(
 	'addthis' => 'વહેંચો',
 );
 
+/** Hawaiian (Hawai`i)
+ * @author Kolonahe
+ */
+$messages['haw'] = array(
+	'addthis' => 'ʻAlo',
+	'addthis-desc' => 'Hoʻohui i ka [http://www.addthis.com wīkete HoʻohuiKēia] i ka pāʻaoʻao a hōʻike i ka pahu hāmeʻa ma poʻo o nā ʻaoʻao e hiki ke hana hou ʻia i kēlā me kēia wahi e hoʻokomo ʻia i ka lepili <nowiki><addthis /></nowiki>',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Ofekalef
