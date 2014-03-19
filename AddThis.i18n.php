@@ -124,6 +124,13 @@ $messages['ca'] = array(
 	'addthis-desc' => "Afegeix [http://www.addthis.com el giny AddThis] a la barra lateral i mostra una barra d'eines en les capçaleres de les pàgines que es pot reproduir arreu, mitjançant la inserció de l'etiqueta <nowiki><addthis /></nowiki>",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'addthis' => 'Екха',
+);
+
 /** Czech (čeština)
  * @author Vks
  */
