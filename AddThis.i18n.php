@@ -584,7 +584,7 @@ $messages['rue'] = array(
  */
 $messages['sco'] = array(
 	'addthis' => 'shair',
-	'addthis-desc' => 'Adds [http://www.addthis.com AddThis widget] til the sidebaur n displeys ae tuilbaur oan page heiders that can be reproduced oniwhaur bi insertin the <nowiki><addthis /></nowiki> tag',
+	'addthis-desc' => 'Eiks [http://www.addthis.com AddThis widget] til the sidebaur n displeys ae tuilbaur oan page heiders that can be reproduced oniewhaur bi insertin the <nowiki><addthis /></nowiki> tag',
 );
 
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
