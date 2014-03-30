@@ -13,7 +13,7 @@
  * Thank you to Raymond, Kghbln, Michawiki, Toliño, McDutchie, Bjankuloski06, SPQRobin, Veeven, Gucci Mane Burrr, Kaajawa, Purodha, Kwj2772,
  *     Unikum111, Y-M D, Xuacu, Naudefj, Gomoko, Anakmalaysia, פוילישער, Shizhao, and others mentioned in AddThis.i18n.php for translation work
  */
- 
+
 /**
  * Exit if called outside of MediaWiki
  */
@@ -21,7 +21,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
         echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
         die( 1 );
 }
- 
+
 
 /**
  * SETTINGS
@@ -186,7 +186,7 @@ $wgAddThisHServ = array(
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'AddThis',
-	'version'        => '1.0.1',
+	'version'        => '1.1.0',
 	'author'         => '[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum] (Contributions by [https://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
 	'description'    => 'Adds [http://www.addthis.com AddThis button] to the sidebar and page header',
 	'descriptionmsg' => 'addthis-desc',
@@ -199,6 +199,7 @@ $wgExtensionCredits['other'][] = array(
  */
 $dir = dirname(__FILE__) . '/';
 $wgAutoloadClasses['AddThis'] = $dir . 'AddThis.body.php';
+$wgMessagesDirs['AddThis'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AddThis'] = $dir . 'AddThis.i18n.php';
 
 $wgResourceModules['ext.addThis'] = array(
