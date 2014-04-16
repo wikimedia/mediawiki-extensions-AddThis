@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Event"
-        ]
-    },
-    "addthis": "Del",
-    "addthis-desc": "Legger inn et [http://www.addthis.com AddThis-element] i sidepanelet samt viser en verktøylinje for sideoverskrifter som kan reproduseres hvor som helst ved å ta med en <nowiki><addthis /></nowiki>-tag"
+	"@metadata": {
+		"authors": [
+			"Event"
+		]
+	},
+	"addthis": "Del",
+	"addthis-desc": "Legger inn et [http://www.addthis.com AddThis-element] i sidepanelet samt viser en verktøylinje for sideoverskrifter som kan reproduseres hvor som helst ved å ta med en <nowiki><addthis /></nowiki>-tag"
 }
