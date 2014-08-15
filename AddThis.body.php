@@ -34,11 +34,11 @@ class AddThis {
 		# Output AddThis widget
 		$output ='<!-- AddThis Button BEGIN -->
 			<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:'.$wgAddThisBackground.'; border-color:'.$wgAddThisBorder.';">
-				<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid='.$wgAddThispubid.'" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>';
+				<a href="//www.addthis.com/bookmark.php?v=250&amp;pubid='.$wgAddThispubid.'" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>';
 
 		$output .= self::makeLinks( $wgAddThisHServ );
 		$output .='</div>
-			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>';
+			<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>';
 			
 		# Output AddThis Address Bar Sharing script, if enabled
 		if ( $wgAddThis['addressbarsharing'] ) {
@@ -75,12 +75,12 @@ class AddThis {
 		# Output AddThis widget
 		$wgOut->addHTML('<!-- AddThis Button BEGIN -->
 			<div class="addthis_toolbox addthis_default_style" id="addthistoolbar" style="background:'.$wgAddThisBackground.'; border-color:'.$wgAddThisBorder.';">
-			<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid='.$wgAddThispubid.'" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>');
+			<a href="//www.addthis.com/bookmark.php?v=250&amp;pubid='.$wgAddThispubid.'" class="addthis_button_compact">&nbsp;' . $share . '</a><span class="addthis_separator">&nbsp;</span>');
 
 		$wgOut->addHTML( self::makeLinks( $wgAddThisHServ ) );
 
 		$wgOut->addHTML('</div>
-			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>');
+			<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>');
 
 		# Output AddThis Address Bar Sharing script, if enabled
 		if ( $wgAddThis['addressbarsharing'] ) {
@@ -115,7 +115,7 @@ class AddThis {
 		$bar['addthis'] .= self::makeLinks( $wgAddThisSBServ );
 
 		$bar['addthis'] .= '</div>
-			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>';
+			<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid='.$wgAddThispubid.'"></script>';
 
 		# Output AddThis Address Bar Sharing script, if enabled
 		if ( $wgAddThis['addressbarsharing'] ) {
