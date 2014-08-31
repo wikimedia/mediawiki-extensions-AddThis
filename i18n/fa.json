@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Dalba",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Alirezaaa"
 		]
 	},
 	"addthis": "به‌اشتراک‌گذاشتن",
-	"addthis-desc": "[http://www.addthis.com ابزارک AddThis] را به نوار کناری می‌افزاید و یک نوار ابزار در سرآیند صفحه‌ها نمایش می‌دهد که می‌توان آن‌ها را در هر جایی با استفاده از برچسب <nowiki><addthis /></nowiki> tag بازتولید کرد"
+	"addthis-desc": "[http://www.addthis.com ابزارک AddThis] را به نوار کناری می‌افزاید و یک نوار ابزار در سرآیند صفحات نمایش می‌دهد که می‌توان آن‌ها را در هر جایی با استفاده از برچسب <nowiki><addthis /></nowiki> tag بازتولید کرد"
 }
