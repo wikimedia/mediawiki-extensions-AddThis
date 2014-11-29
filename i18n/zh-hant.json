@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Justincheng12345",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Liuxinyu970226"
 		]
 	},
 	"addthis": "分享",
-	"addthis-desc": "新增 [http://www.addthis.com AddThis 工具] 至側邊欄並於頁首顯示工具列以便於在任何地方插入 <nowiki><addthis><addthis /></nowiki> 標籤。"
+	"addthis-desc": "新增 [http://www.addthis.com AddThis 工具] 至側邊欄並於頁首顯示工具列以便於在任何地方插入 <nowiki><addthis /></nowiki> 標籤。"
 }
