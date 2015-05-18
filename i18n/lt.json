@@ -4,5 +4,6 @@
 			"Eitvys200"
 		]
 	},
-	"addthis": "Dalintis"
+	"addthis": "Dalintis",
+	"addthis-desc": "Prideda [http://www.addthis.com AddThis valdiklį] į šoninę juostą ir rodo įrankių juostą puslapių antraštėse, kuri gali būti atkurta, bet kurioje vietoje naudojant <nowiki><addthis /></nowiki>  žymę."
 }
