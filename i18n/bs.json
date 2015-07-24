@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Palapa"
+			"Palapa",
+			"Srdjan m"
 		]
 	},
-	"addthis": "Podijeli"
+	"addthis": "Podijeli",
+	"addthis-desc": "Dodaje [http://www.addthis.com AddThis] u bočnu traku i prikazuje meni na zaglavlju stranice koji se svugdje može prikazati ubacivanjem oznake <nowiki><addthis /></nowiki>"
 }
