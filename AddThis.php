@@ -196,7 +196,6 @@ $wgExtensionCredits['other'][] = array(
 
 $wgAutoloadClasses['AddThis'] = __DIR__ . '/AddThis.body.php';
 $wgMessagesDirs['AddThis'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AddThis'] = __DIR__ . '/AddThis.i18n.php';
 
 $wgResourceModules['ext.addThis'] = array(
 	'styles' => 'addThis.css',
