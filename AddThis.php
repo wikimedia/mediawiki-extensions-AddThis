@@ -131,60 +131,60 @@ $wgAddThisBorder = '#a7d7f9';
 $wgAddThisSidebar = true;
 $wgAddThisHeader = true;
 $wgAddThisMain = true;
-$wgAddThis = array(
+$wgAddThis = [
 	'addressbarsharing' => false,
-);
+];
 
 # Sidebar settings
-$wgAddThisSBServ = array(
-	array(
+$wgAddThisSBServ = [
+	[
 		'service' => 'compact',
-	),
-	array(
+	],
+	[
 		'service' => 'facebook',
-	),
-	array(
+	],
+	[
 		'service' => 'twitter',
-	),
-	array(
+	],
+	[
 		'service' => 'google_plusone',
 		'attribs' => 'g:plusone:count="false" style="margin-top:1px;"',
-	),
-	array(
+	],
+	[
 		'service' => 'email',
-	),
-);
+	],
+];
 
 # Toolbar settings
-$wgAddThisHServ = array(
-	array(
+$wgAddThisHServ = [
+	[
 		'service' => 'facebook',
-	),
-	array(
+	],
+	[
 		'service' => 'twitter',
-	),
-	array(
+	],
+	[
 		'service' => 'google_plusone',
 		'attribs' => 'g:plusone:count="false" style="margin-top:1px;"',
-	),
-	array(
+	],
+	[
 		'service' => 'linkedin',
-	),
-	array(
+	],
+	[
 		'service' => 'tumblr',
-	),
-	array(
+	],
+	[
 		'service' => 'stumbleupon',
-	),
-	array(
+	],
+	[
 		'service' => 'reddit',
-	),
-	array(
+	],
+	[
 		'service' => 'email',
-	),
-);
+	],
+];
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'AddThis',
 	'version' => '1.1.1',
@@ -192,16 +192,16 @@ $wgExtensionCredits['other'][] = array(
 		'(Contributions by [https://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
 	'descriptionmsg' => 'addthis-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AddThis',
-);
+];
 
 $wgAutoloadClasses['AddThis'] = __DIR__ . '/AddThis.body.php';
 $wgMessagesDirs['AddThis'] = __DIR__ . '/i18n';
 
-$wgResourceModules['ext.addThis'] = array(
+$wgResourceModules['ext.addThis'] = [
 	'styles' => 'addThis.css',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'AddThis',
-);
+];
 
 $wgHooks['ArticleViewHeader'][] = 'AddThis::AddThisHeader';
 $wgHooks['ParserFirstCallInit'][] = 'AddThis::AddThisHeaderTag';
