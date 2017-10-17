@@ -188,10 +188,14 @@ $wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'AddThis',
 	'version' => '1.1.1',
-	'author' => '[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum] ' .
-		'(Contributions by [https://www.mediawiki.org/wiki/User:Johnduhart John Du Hart])',
+	'author' => [
+		'[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum]',
+		'[https://www.mediawiki.org/wiki/User:Johnduhart John Du Hart]',
+		'...'
+	],
 	'descriptionmsg' => 'addthis-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AddThis',
+	'license-name' => 'GPL-2.0'
 ];
 
 $wgAutoloadClasses['AddThis'] = __DIR__ . '/AddThis.body.php';
