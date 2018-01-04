@@ -195,7 +195,7 @@ $wgExtensionCredits['other'][] = [
 	],
 	'descriptionmsg' => 'addthis-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AddThis',
-	'license-name' => 'GPL-2.0'
+	'license-name' => 'GPL-2.0-only'
 ];
 
 $wgAutoloadClasses['AddThis'] = __DIR__ . '/AddThis.body.php';
