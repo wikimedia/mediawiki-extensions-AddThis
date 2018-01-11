@@ -13,7 +13,7 @@ class AddThis {
 	/**
 	 * Register parser hook
 	 *
-	 * @param $parser Parser
+	 * @param Parser &$parser
 	 * @return bool
 	 */
 	public static function AddThisHeaderTag( &$parser ) {
@@ -25,7 +25,7 @@ class AddThis {
 	/**
 	 * Parser hook for the <addthis /> tag extension.
 	 *
-	 * @param $parser
+	 * @param Parser $parser
 	 * @return string
 	 */
 	public static function parserHook( $parser ) {
@@ -59,9 +59,9 @@ class AddThis {
 	/**
 	 * Function for article header toolbar
 	 *
-	 * @param $article Article
-	 * @param $outputDone
-	 * @param $pcache
+	 * @param Article &$article
+	 * @param bool &$outputDone
+	 * @param bool &$pcache
 	 * @return bool|bool
 	 */
 	public static function AddThisHeader( &$article, &$outputDone, &$pcache ) {
@@ -107,9 +107,9 @@ class AddThis {
 	/**
 	 * Function for sidebar portlet
 	 *
-	 * @param $skin
-	 * @param $bar
-	 * @return bool|array|bool
+	 * @param Skin $skin
+	 * @param Sidebar &$bar
+	 * @return bool|array
 	 */
 	public static function AddThisSidebar( $skin, &$bar ) {
 		global $wgOut, $wgAddThis, $wgAddThispubid, $wgAddThisSidebar, $wgAddThisSBServ;
@@ -144,7 +144,7 @@ class AddThis {
 	/**
 	 * Converts an array definition of links into HTML tags
 	 *
-	 * @param $links array
+	 * @param array $links
 	 * @return string
 	 */
 	protected static function makeLinks( $links ) {
