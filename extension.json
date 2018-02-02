@@ -9,6 +9,9 @@
 	"descriptionmsg": "addthis-desc",
 	"license-name": "GPL-2.0-only",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"MessagesDirs": {
 		"AddThis": [
 			"i18n"
