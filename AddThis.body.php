@@ -7,7 +7,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * Class file for the AddThis extension
  *
  * @addtogroup Extensions
- * @license GPL
+ * @license GPL-2.0-only
  */
 class AddThis {
 	/**
