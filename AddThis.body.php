@@ -150,7 +150,7 @@ class AddThis {
 	protected static function makeLinks( $links ) {
 		$html = '';
 		foreach ( $links as $link ) {
-			$attribs = isset( $link['attribs'] ) ? $link['attribs'] : '';
+			$attribs = $link['attribs'] ?? '';
 
 			$html .= '<a class="addthis_button_' . $link['service'] . '" ' . $attribs . '></a>';
 		}
