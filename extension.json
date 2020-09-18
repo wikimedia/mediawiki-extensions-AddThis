@@ -18,7 +18,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"AddThis": "AddThis.body.php"
+		"AddThis": "AddThis.php"
 	},
 	"ResourceModules": {
 		"ext.addThis": {
